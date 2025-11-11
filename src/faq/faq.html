@@ -38,161 +38,169 @@
   <!-- Header sera chargé ici -->
   <div id="header-container"></div>
 
-  <!-- Hero Section -->
-  <section class="pt-24 pb-16 bg-[#2E5D35] text-white">
-    <div class="container mx-auto px-4 text-center">
-      <h1 class="text-3xl md:text-5xl font-bold mb-6">Vos questions, nos réponses</h1>
-      <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 px-4">
-        Tout ce que vous avez toujours voulu savoir sur la médecine chinoise et votre bien-être
-      </p>
-      <div class="w-20 h-1 bg-green-400 mx-auto"></div>
-    </div>
-  </section>
-
-  <!-- Section FAQ Principale -->
-  <section class="py-16">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <div class="text-center mb-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Questions Fréquentes</h2>
-        <p class="text-gray-600">Les réponses à vos interrogations les plus courantes</p>
+  <main class="pt-24">
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-[#2E5D35] text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-3xl md:text-5xl font-bold mb-6">Vos questions, nos réponses</h1>
+        <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 px-4">
+          Tout ce que vous avez toujours voulu savoir sur la médecine chinoise et votre bien-être
+        </p>
+        <div class="w-20 h-1 bg-green-400 mx-auto"></div>
       </div>
+    </section>
 
-      <div class="space-y-6">
-        <!-- Question 1 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq1" class="accordion-toggle hidden">
-          <label for="faq1" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Combien de temps dure une séance ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p class="mb-3">En moyenne 60 minutes, incluant :</p>
-            <ul class="space-y-2 ml-6">
-              <li class="flex items-start">
-                <span class="text-[#2E5D35] mr-2">•</span>
-                <span>l'entretien personnalisé,</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-[#2E5D35] mr-2">•</span>
-                <span>le diagnostic énergétique,</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-[#2E5D35] mr-2">•</span>
-                <span>et le traitement.</span>
-              </li>
-            </ul>
-          </div>
+    <!-- Section FAQ Principale -->
+    <section class="py-16">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Questions Fréquentes</h2>
+          <p class="text-gray-600">Les réponses à vos interrogations les plus courantes</p>
         </div>
 
-        <!-- Question 2 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq2" class="accordion-toggle hidden">
-          <label for="faq2" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Est-ce que l'acupuncture fait mal ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p>Non. Les aiguilles utilisées sont très fines et leur insertion provoque au maximum une légère sensation,
-              comparable à une piqûre de moustique. Nous privilégions toujours une stimulation douce et confortable,
-              adaptée à votre sensibilité.</p>
+        <div class="space-y-6">
+          <!-- Question 1 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq1" class="accordion-toggle hidden">
+            <label for="faq1" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Combien de temps dure une séance ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p class="mb-3">En moyenne 60 minutes, incluant :</p>
+              <ul class="space-y-2 ml-6">
+                <li class="flex items-start">
+                  <span class="text-[#2E5D35] mr-2">•</span>
+                  <span>l'entretien personnalisé,</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-[#2E5D35] mr-2">•</span>
+                  <span>le diagnostic énergétique,</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-[#2E5D35] mr-2">•</span>
+                  <span>et le traitement.</span>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <!-- Question 3 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq3" class="accordion-toggle hidden">
-          <label for="faq3" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Combien de séances sont nécessaires ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p class="mb-3">Cela dépend du type de problème et depuis combien de temps il est présent.</p>
-            <p class="mb-3">En général, les troubles récents peuvent s'améliorer en quelques séances, parfois dès la
-              première. Les problèmes plus anciens ou chroniques demandent souvent un suivi plus long.</p>
-            <p>Un cycle de plusieurs semaines peut être utile, puis une séance mensuelle aide à maintenir l'équilibre et
-              à éviter les rechutes.</p>
+          <!-- Question 2 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq2" class="accordion-toggle hidden">
+            <label for="faq2" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Est-ce que l'acupuncture fait mal ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p>Non. Les aiguilles utilisées sont très fines et leur insertion provoque au maximum une légère
+                sensation,
+                comparable à une piqûre de moustique. Nous privilégions toujours une stimulation douce et confortable,
+                adaptée à votre sensibilité.</p>
+            </div>
           </div>
-        </div>
 
-        <!-- Question 4 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq4" class="accordion-toggle hidden">
-          <label for="faq4" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Pourquoi choisir l'acupuncture ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p>L'acupuncture agit en profondeur sur les blocages énergétiques, favorise la circulation de l'énergie et
-              aide le corps à retrouver son équilibre naturel. Elle peut être complémentaire à d'autres approches
-              (physiothérapie, ostéopathie, massage) pour optimiser les résultats.</p>
+          <!-- Question 3 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq3" class="accordion-toggle hidden">
+            <label for="faq3" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Combien de séances sont nécessaires ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p class="mb-3">Cela dépend du type de problème et depuis combien de temps il est présent.</p>
+              <p class="mb-3">En général, les troubles récents peuvent s'améliorer en quelques séances, parfois dès la
+                première. Les problèmes plus anciens ou chroniques demandent souvent un suivi plus long.</p>
+              <p>Un cycle de plusieurs semaines peut être utile, puis une séance mensuelle aide à maintenir l'équilibre
+                et
+                à éviter les rechutes.</p>
+            </div>
           </div>
-        </div>
 
-        <!-- Question 5 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq5" class="accordion-toggle hidden">
-          <label for="faq5" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Quelles mesures d'hygiène sont appliquées ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p>Toutes les aiguilles sont stériles et à usage unique.</p>
+          <!-- Question 4 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq4" class="accordion-toggle hidden">
+            <label for="faq4" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Pourquoi choisir l'acupuncture ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p>L'acupuncture agit en profondeur sur les blocages énergétiques, favorise la circulation de l'énergie et
+                aide le corps à retrouver son équilibre naturel. Elle peut être complémentaire à d'autres approches
+                (physiothérapie, ostéopathie, massage) pour optimiser les résultats.</p>
+            </div>
           </div>
-        </div>
 
-        <!-- Question 6 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq6" class="accordion-toggle hidden">
-          <label for="faq6" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">À partir de quel âge peut-on recevoir des séances
-              ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p>L'acupuncture peut être pratiquée dès l'enfance. Pour un confort optimal, nous recommandons généralement
-              d'attendre 4 à 5 ans, sauf indication particulière et avec l'accord des parents.</p>
+          <!-- Question 5 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq5" class="accordion-toggle hidden">
+            <label for="faq5" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Quelles mesures d'hygiène sont appliquées ?
+              </h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p>Toutes les aiguilles sont stériles et à usage unique.</p>
+            </div>
           </div>
-        </div>
 
-        <!-- Question 7 -->
-        <div class="faq-card bg-white rounded-lg shadow-md p-6">
-          <input type="checkbox" id="faq7" class="accordion-toggle hidden">
-          <label for="faq7" class="accordion-label cursor-pointer flex justify-between items-center">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Est-ce remboursé par l'assurance ?</h3>
-            <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
-          </label>
-          <div class="accordion-content mt-4 text-gray-600">
-            <p>En Suisse, de nombreuses assurances complémentaires remboursent tout ou partie des séances d'acupuncture.
-              Chaque patient est invité à vérifier directement auprès de sa caisse maladie les modalités de
-              remboursement.</p>
+          <!-- Question 6 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq6" class="accordion-toggle hidden">
+            <label for="faq6" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">À partir de quel âge peut-on recevoir des
+                séances
+                ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p>L'acupuncture peut être pratiquée dès l'enfance. Pour un confort optimal, nous recommandons
+                généralement
+                d'attendre 4 à 5 ans, sauf indication particulière et avec l'accord des parents.</p>
+            </div>
           </div>
-        </div>
 
-      </div>
-    </div>
-  </section>
+          <!-- Question 7 -->
+          <div class="faq-card bg-white rounded-lg shadow-md p-6">
+            <input type="checkbox" id="faq7" class="accordion-toggle hidden">
+            <label for="faq7" class="accordion-label cursor-pointer flex justify-between items-center">
+              <h3 class="text-lg md:text-xl font-semibold text-gray-800">Est-ce remboursé par l'assurance ?</h3>
+              <i class="fas fa-chevron-down accordion-icon text-[#2E5D35] transition-transform duration-300"></i>
+            </label>
+            <div class="accordion-content mt-4 text-gray-600">
+              <p>En Suisse, de nombreuses assurances complémentaires remboursent tout ou partie des séances
+                d'acupuncture.
+                Chaque patient est invité à vérifier directement auprès de sa caisse maladie les modalités de
+                remboursement.</p>
+            </div>
+          </div>
 
-  <!-- Section Contact -->
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <div class="text-center">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Une question spécifique ?</h2>
-        <p class="text-gray-600 mb-8">Nous sommes là pour vous répondre personnellement</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            class="bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300">
-            <i class="fas fa-phone mr-2"></i>
-            Nous appeler
-          </button>
-          <button
-            class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300">
-            <i class="fas fa-envelope mr-2"></i>
-            Nous écrire
-          </button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="text-center">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Une question spécifique ?</h2>
+          <p class="text-gray-600 mb-8">Nous sommes là pour vous répondre personnellement</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              class="bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300">
+              <i class="fas fa-phone mr-2"></i>
+              Nous appeler
+            </button>
+            <button
+              class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300">
+              <i class="fas fa-envelope mr-2"></i>
+              Nous écrire
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer sera chargé ici -->
   <div id="footer-container"></div>

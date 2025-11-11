@@ -3,8 +3,9 @@
   <div class="container mx-auto px-4 flex justify-between items-center">
     <div class="flex items-center">
       <a href="/index.html"
-        class="text-2xl font-bold text-[#2E5D35] hover:text-[#1e3d23] transition-colors duration-300"><img class="w-28"
-          src="/src/assets/images/header-component/logo-qingning.png" alt=""></a>
+        class="text-2xl font-bold text-[#2E5D35] hover:text-[#1e3d23] transition-colors duration-300">
+        <img class="w-20" src="/src/assets/images/header-component/logo-qingning.png" alt="Qingning Santé">
+      </a>
     </div>
 
     <!-- Desktop Navigation -->
@@ -127,7 +128,7 @@
 
       <a href="/src/blog/blog.html"
         class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
-        data-i18n="header.tarifs">
+        data-i18n="header.blog">
         Blog
         <span
           class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
@@ -151,7 +152,7 @@
         </select>
       </div>
 
-      <!-- CTA Desktop - Changé en "Contact" -->
+      <!-- CTA Desktop -->
       <a href="/src/contact/contact.html"
         class="bg-[#8BC34A] hover:bg-[#7CB342] text-white font-bold py-2 px-6 rounded-lg transition duration-300 ml-4 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 contact-cta"
         data-i18n="header.contact">
@@ -162,55 +163,75 @@
     <!-- Mobile Menu Button -->
     <button id="mobile-menu-button"
       class="md:hidden text-[#2E5D35] hover:text-[#1e3d23] transition-colors duration-300">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+      <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
       </svg>
     </button>
   </div>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="md:hidden hidden bg-white py-4 px-4 shadow-xl">
-    <a href="index.html"
+  <div id="mobile-menu" class="md:hidden hidden bg-white py-4 px-4 shadow-xl absolute top-full left-0 w-full">
+    <a href="/index.html"
       class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
       data-i18n="header.home">Accueil</a>
-    <a href="about.html"
+    <a href="/src/about/about.html"
       class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
       data-i18n="header.about">À propos</a>
-    <a href="equipe.html"
+    <a href="/src/equipe/equipe.html"
       class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
       data-i18n="header.therapeute">Thérapeute</a>
 
     <!-- Soins mobile avec sous-menu -->
     <div class="border-b border-gray-100">
-      <a href="soins.html"
-        class="mobile-nav-link block py-3 text-[#2E5D35] font-medium hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
-        data-i18n="header.services">Soins</a>
-      <div class="pl-6 space-y-1 py-2">
-        <a href="soins-acupuncture.html"
+      <button id="mobile-soins-toggle"
+        class="mobile-nav-link w-full text-left py-3 text-[#2E5D35] font-medium hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300 flex justify-between items-center">
+        <span data-i18n="header.services">Soins</span>
+        <svg class="w-4 h-4 transform transition-transform duration-300" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div id="mobile-soins-submenu" class="pl-6 space-y-1 py-2 hidden">
+        <a href="/src/soins/acupuncture/acupuncture.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.acupuncture">Acupuncture</a>
-        <a href="soins-moxibustion.html"
+          data-i18n="services.acupuncture">Acupuncture</a>
+        <a href="/src/soins/acupuncture-lift/acupuncture-lift.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.moxibustion">Moxibustion</a>
-        <a href="soins-ventouses.html"
+          data-i18n="services.acupuncture">Acupuncture LIFT</a>
+        <a href="/src/soins/moxibustion/moxibustion.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.ventouses">Ventouses</a>
-        <a href="soins-tuina.html"
+          data-i18n="services.moxibustion">Moxibustion</a>
+        <a href="/src/soins/ventouses/ventouses.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.tuina">Massage Tui Na</a>
-        <a href="soins-phytotherapie.html"
+          data-i18n="services.ventouses">Ventouses</a>
+        <a href="/src/soins/tuina/tuina.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.phytotherapie">Phytothérapie</a>
-        <a href="soins-nutrition.html"
+          data-i18n="services.tuina">Massage Tui Na</a>
+        <a href="/src/soins/phytotherapie/phytotherapie.html"
           class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
-          data-i18n="header.services.nutrition">Nutrition MTC</a>
+          data-i18n="services.phytotherapie">Phytothérapie</a>
+        <a href="/src/soins/nutrition/nutrition.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="services.nutrition">Nutrition MTC</a>
       </div>
     </div>
+
+    <a href="/src/vitality/vitality.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.vitality">Vitalité</a>
 
     <a href="/src/tarifs/tarifs.html"
       class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
       data-i18n="header.tarifs">Tarifs</a>
-    <a href="faq.html"
+
+    <a href="/src/blog/blog.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.blog">Blog</a>
+
+    <a href="/src/faq/faq.html"
       class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
       data-i18n="header.faq">FAQ</a>
 
@@ -225,11 +246,72 @@
       </select>
     </div>
 
-    <!-- CTA Mobile - Changé en "Contact" -->
-    <a href="contact.html"
+    <!-- CTA Mobile -->
+    <a href="/src/contact/contact.html"
       class="block py-3 bg-[#8BC34A] hover:bg-[#7CB342] text-white text-center font-bold rounded-lg mt-4 transition duration-300 shadow-md hover:shadow-lg mobile-contact-cta"
       data-i18n="header.contact">
       Contact
     </a>
   </div>
 </nav>
+
+<script>
+  // Script pour le menu burger mobile
+  document.addEventListener('DOMContentLoaded', function () {
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileSoinsToggle = document.getElementById('mobile-soins-toggle');
+    const mobileSoinsSubmenu = document.getElementById('mobile-soins-submenu');
+    const soinsArrow = mobileSoinsToggle.querySelector('svg');
+
+    // Toggle menu mobile
+    mobileMenuButton.addEventListener('click', function () {
+      const isHidden = mobileMenu.classList.contains('hidden');
+
+      if (isHidden) {
+        mobileMenu.classList.remove('hidden');
+        menuIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Empêche le scroll
+      } else {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+        mobileSoinsSubmenu.classList.add('hidden');
+        soinsArrow.classList.remove('rotate-180');
+        document.body.style.overflow = ''; // Réactive le scroll
+      }
+    });
+
+    // Toggle sous-menu Soins mobile
+    if (mobileSoinsToggle) {
+      mobileSoinsToggle.addEventListener('click', function () {
+        mobileSoinsSubmenu.classList.toggle('hidden');
+        soinsArrow.classList.toggle('rotate-180');
+      });
+    }
+
+    // Fermer le menu en cliquant sur un lien
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link, .mobile-subnav-link');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Fermer le menu en cliquant en dehors
+    document.addEventListener('click', function (event) {
+      if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target) && !mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    });
+  });
+</script>
