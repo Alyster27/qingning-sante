@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitalité</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+  <!-- Header -->
+  <div id="header-container"></div>
+  <main class="pt-24">
+    <!-- Section 1 Introduction -->
+    <section class="pt-16 pb-16 bg-[#2E5D35] text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold mb-8 text-center" data-i18n="vitality.section1.title">
+        </h2>
+        <h3 class="text-3xl font-bold mb-12 text-center" data-i18n="vitality.section1.subtitle"></h3>
+        <p class="text-lg text-white-700 leading-relaxed text-center" data-i18n="vitality.section1.paragraph"></p>
+      </div>
+    </section>
+
+    <!-- Section 2 Grid des Cards -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- Card 1 - Surpoids -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('surpoids')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-weight-scale text-green-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.surpoids.title"></h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.surpoids.paragraph">Rétablir l'équilibre
+                métabolique par une approche holistique...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 2 - Stress -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('stress')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-brain text-blue-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.stress.title">Stress &
+                Épuisement Professionnel</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.stress.paragraph">Retrouver l'équilibre nerveux
+                et une vitalité durable...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 3 - Douleurs -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('douleurs')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-bone text-red-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.douleurs.title">Douleurs
+                Articulaires & Musculaires</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.douleurs.paragraph">Soulagement profond et
+                durable des douleurs...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 4 - Santé Féminine -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('feminine')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-venus text-pink-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.feminine.title">Santé
+                Féminine & Fertilité</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.feminine.paragraph">Accompagnement à chaque
+                étape
+                de la vie féminine...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 5 - Troubles Digestifs -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('digestif')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-apple-alt text-yellow-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.digestif.title">Troubles
+                Digestifs & Intestinaux</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.digestif.paragraph">Retrouver un confort
+                digestif durable...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 6 - Allergies -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('allergies')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-wind text-purple-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.allergies.title">Allergies &
+                Problèmes Respiratoires</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.allergies.paragraph">Renforcer votre terrain
+                pour respirer librement...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 7 - Problèmes de Peau -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('peau')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-hand-holding-medical text-teal-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.peau.title">Problèmes de
+                Peau</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.peau.paragraph">Traiter les causes internes des
+                affections cutanées récurrentes...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 8 - Soutien Oncologique -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('oncologique')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-heartbeat text-indigo-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.oncologique.title">Soutien
+                Oncologique</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.oncologique.paragraph">Accompagnement
+                bienveillant pendant les traitements...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+          <!-- Card 9 - Santé Masculine -->
+          <div
+            class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+            onclick="openModal('masculine')">
+            <div class="p-6">
+              <div class="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-mars text-cyan-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-800 mb-3" data-i18n="vitality.section2.masculine.title">Santé
+                Masculine & Vitalité</h3>
+              <p class="text-gray-600 mb-4" data-i18n="vitality.section2.masculine.paragraph">Approche holistique pour
+                la vitalité masculine...</p>
+              <span class="text-green-600 font-semibold" data-i18n="vitality.section2.plus">En savoir plus →</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal/Popup -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+      <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-6">
+              <div id="modal-title"></div>
+              <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times text-2xl"></i>
+              </button>
+            </div>
+            <div id="modal-content" class="prose max-w-none">
+              <!-- Le contenu sera injecté ici par JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+  <script src="vitality.js"></script>
+</body>
+
+</html>

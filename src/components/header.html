@@ -1,0 +1,235 @@
+<nav id="navbar" class="fixed w-full z-50 bg-white py-4 transition-all duration-300 shadow-lg"
+  style="box-shadow: 0 4px 12px rgba(139, 195, 74, 0.15);">
+  <div class="container mx-auto px-4 flex justify-between items-center">
+    <div class="flex items-center">
+      <a href="/index.html"
+        class="text-2xl font-bold text-[#2E5D35] hover:text-[#1e3d23] transition-colors duration-300"><img class="w-28"
+          src="/src/assets/images/header-component/logo-qingning.png" alt=""></a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <div class="hidden md:flex space-x-1 items-center">
+      <a href="/src/about/about.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.about">
+        À propos
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <a href="/src/equipe/equipe.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.therapeute">
+        Thérapeute
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <!-- Soins avec sous-menu amélioré -->
+      <div class="relative group">
+        <a href="/src/soins/soins.html"
+          class="nav-link-soins relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white flex items-center group"
+          data-i18n="header.services">
+          Soins
+          <svg class="w-4 h-4 ml-1 transform transition-transform duration-300 group-hover:rotate-180" fill="none"
+            stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+          <span
+            class="absolute inset-0 rounded-lg bg-[#2E5D35] opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+        </a>
+
+        <div
+          class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-3 min-w-[240px] z-50 border border-gray-100 transform origin-top transition-all duration-300 scale-95 group-hover:scale-100">
+          <div class="absolute -top-2 left-6 w-4 h-4 bg-white transform rotate-45 border-t border-l border-gray-100">
+          </div>
+
+          <a href="/src/soins/acupuncture/acupuncture.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.acupuncture">Acupuncture</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/acupuncture-lift/acupuncture-lift.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.acupuncture">Acupuncture LIFT</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/moxibustion/moxibustion.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.moxibustion">Moxibustion</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/ventouses/ventouses.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.ventouses">Ventouses</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/tuina/tuina.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.tuina">Massage Tui Na</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/phytotherapie/phytotherapie.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.phytotherapie">Phytothérapie</span>
+            </span>
+          </a>
+
+          <a href="/src/soins/nutrition/nutrition.html"
+            class="submenu-link block px-6 py-3 text-[#2E5D35] hover:bg-[#2E5D35] hover:text-white transition-all duration-250 group/submenu rounded-md mx-2">
+            <span class="flex items-center">
+              <span
+                class="w-2 h-2 bg-[#8BC34A] rounded-full mr-3 group-hover/submenu:bg-white transition-colors duration-250"></span>
+              <span data-i18n="services.nutrition">Nutrition MTC</span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <a href="/src/vitality/vitality.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.vitality">
+        Vitalité
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <a href="/src/tarifs/tarifs.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.tarifs">
+        Tarifs
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <a href="/src/blog/blog.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.tarifs">
+        Blog
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <a href="/src/faq/faq.html"
+        class="nav-link relative px-4 py-2 text-[#2E5D35] font-medium rounded-lg transition-all duration-300 hover:bg-[#2E5D35] hover:text-white group"
+        data-i18n="header.faq">
+        FAQ
+        <span
+          class="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#2E5D35] transition-all duration-300 group-hover:w-4/5 group-hover:left-1/10"></span>
+      </a>
+
+      <!-- SÉLECTEUR DE LANGUE DANS LE HEADER -->
+      <div class="lang-selector-container ml-2">
+        <select id="header-lang-select"
+          class="lang-selector text-sm border border-gray-300 rounded-lg px-3 py-1 bg-white focus:outline-none focus:ring-2 focus:ring-[#2E5D35] hover:border-[#2E5D35] transition-colors duration-300">
+          <option value="fr">🇫🇷 FR</option>
+          <option value="en">🇬🇧 EN</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+
+      <!-- CTA Desktop - Changé en "Contact" -->
+      <a href="/src/contact/contact.html"
+        class="bg-[#8BC34A] hover:bg-[#7CB342] text-white font-bold py-2 px-6 rounded-lg transition duration-300 ml-4 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 contact-cta"
+        data-i18n="header.contact">
+        Contact
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-button"
+      class="md:hidden text-[#2E5D35] hover:text-[#1e3d23] transition-colors duration-300">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden bg-white py-4 px-4 shadow-xl">
+    <a href="index.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.home">Accueil</a>
+    <a href="about.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.about">À propos</a>
+    <a href="equipe.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.therapeute">Thérapeute</a>
+
+    <!-- Soins mobile avec sous-menu -->
+    <div class="border-b border-gray-100">
+      <a href="soins.html"
+        class="mobile-nav-link block py-3 text-[#2E5D35] font-medium hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+        data-i18n="header.services">Soins</a>
+      <div class="pl-6 space-y-1 py-2">
+        <a href="soins-acupuncture.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.acupuncture">Acupuncture</a>
+        <a href="soins-moxibustion.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.moxibustion">Moxibustion</a>
+        <a href="soins-ventouses.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.ventouses">Ventouses</a>
+        <a href="soins-tuina.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.tuina">Massage Tui Na</a>
+        <a href="soins-phytotherapie.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.phytotherapie">Phytothérapie</a>
+        <a href="soins-nutrition.html"
+          class="mobile-subnav-link block py-2 text-[#2E5D35] text-sm hover:bg-[#2E5D35] hover:text-white px-3 rounded transition-all duration-250"
+          data-i18n="header.services.nutrition">Nutrition MTC</a>
+      </div>
+    </div>
+
+    <a href="/src/tarifs/tarifs.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.tarifs">Tarifs</a>
+    <a href="faq.html"
+      class="mobile-nav-link block py-3 text-[#2E5D35] font-medium border-b border-gray-100 hover:bg-[#2E5D35] hover:text-white px-3 rounded-lg transition-all duration-300"
+      data-i18n="header.faq">FAQ</a>
+
+    <!-- Sélecteur de langue version mobile -->
+    <div class="py-3 border-b border-gray-100">
+      <label class="block text-sm text-gray-600 mb-2">Langue / Language</label>
+      <select id="mobile-lang-select"
+        class="mobile-lang-selector w-full border border-gray-300 rounded-lg px-3 py-2 bg-white focus:border-[#2E5D35] transition-colors duration-300">
+        <option value="fr">🇫🇷 Français</option>
+        <option value="en">🇬🇧 English</option>
+        <option value="zh">🇨🇳 中文</option>
+      </select>
+    </div>
+
+    <!-- CTA Mobile - Changé en "Contact" -->
+    <a href="contact.html"
+      class="block py-3 bg-[#8BC34A] hover:bg-[#7CB342] text-white text-center font-bold rounded-lg mt-4 transition duration-300 shadow-md hover:shadow-lg mobile-contact-cta"
+      data-i18n="header.contact">
+      Contact
+    </a>
+  </div>
+</nav>

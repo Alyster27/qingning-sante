@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+  <!-- Header sera chargé ici -->
+  <div id="header-container"></div>
+
+  <!-- CONTENU DE LA PAGE ABOUT -->
+  <main class="pt-24">
+
+    <!-- Section 1 : Philosophie -->
+    <section>
+      <div class="pt-16 pb-16 bg-[#2E5D35] text-white">
+        <h2 class="text-4xl font-bold mb-8 text-center" data-i18n="about.title"></h2>
+        <p class="text-lg md:text-2xl max-w-3xl mx-auto mb-8 px-4 text-center" data-i18n="about.subtitle"></p>
+        <div class="w-20 h-1 bg-green-400 mx-auto"></div>
+      </div>
+      <div class="py-16 container mx-auto px-4">
+        <!-- Bloc 1 - Image à droite -->
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section1.bloc1-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/about-page/apropos-sante.webp" alt="Philosophie Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+
+        <!-- Bloc 2 - Image à gauche -->
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2 order-2 lg:order-1">
+            <img src="/src/assets/images/about-page/apropos-lime.webp" alt="Symbolique du citron vert"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2 order-1 lg:order-2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section1.bloc2-paragraph"></p>
+          </div>
+        </div>
+
+        <!-- Bloc 3 - Image à droite -->
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section1.bloc3-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/about-page/apropos-space.webp" alt="Mission Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 : Histoire -->
+    <section class="py-16 bg-emerald-100">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="about.section2.subtitle"></h3>
+
+        <!-- Bloc 1 - Image à gauche -->
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/about-page/apropos-neuchatel.webp" alt="Rencontre Suisse-Chine"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section2.bloc1-paragraph"></p>
+          </div>
+        </div>
+
+        <!-- Bloc 2 - Image à droite -->
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section2.bloc2-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/about-page/apropos-meeting.webp" alt="Collaboration Qingning"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 : Engagement -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-[#2E5D35] mb-12 text-center" data-i18n="about.section3.subtitle"></h3>
+
+        <div class="max-w-4xl mx-auto">
+          <ul class="text-lg text-[#2E5D35] space-y-6">
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-4 text-2xl">•</span>
+              <div>
+                <span class="font-semibold" data-i18n="about.section3.commitment1.bold"></span>
+                <span class="text-[#2E5D35]" data-i18n="about.section3.commitment1.text"></span>
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-4 text-2xl">•</span>
+              <div>
+                <span class="font-semibold" data-i18n="about.section3.commitment2.bold"></span>
+                <span class="text-[#2E5D35]" data-i18n="about.section3.commitment2.text"></span>
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-4 text-2xl">•</span>
+              <div>
+                <span class="font-semibold" data-i18n="about.section3.commitment3.bold"></span>
+                <span class="text-[#2E5D35]" data-i18n="about.section3.commitment3.text"></span>
+              </div>
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-4 text-2xl">•</span>
+              <div>
+                <span class="font-semibold" data-i18n="about.section3.commitment4.bold"></span>
+                <span class="text-[#2E5D35]" data-i18n="about.section3.commitment4.text"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 : Approche globale -->
+    <section class="py-16 bg-emerald-100">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-[#2E5D35] mb-12 text-center" data-i18n="about.section4.subtitle"></h3>
+
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/about-page/apropos-human.webp" alt="Approche globale MTC"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="about.section4.paragraph"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer sera chargé ici -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+</body>
+
+</html>

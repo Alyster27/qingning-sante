@@ -1,0 +1,16 @@
+.article-card {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(46, 93, 53, 0.1);
+}
+
+.read-time {
+  background: rgba(46, 93, 53, 0.1);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}

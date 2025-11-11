@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+</head>
+
+<body class="bg-gradient-to-br from-green-50 to-emerald-100">
+  <!-- Header sera chargé ici -->
+  <div id="header-container"></div>
+
+  <main class="pt-24">
+    <!-- Section 1 - Introduction -->
+    <section class="pt-24 pb-16 bg-[#2E5D35] text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-3xl md:text-5xl font-bold mb-6">Le Blog de Qingning Santé</h1>
+        <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 px-4">
+          Découvrez les secrets de la médecine chinoise pour une santé rayonnante
+        </p>
+        <div class="w-20 h-1 bg-green-400 mx-auto"></div>
+      </div>
+    </section>
+
+    <!-- Section 2 - Articles -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Nos derniers articles</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Des conseils pratiques pour votre bien-être au quotidien</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+          <!-- Article 1 -->
+          <div class="article-card rounded-2xl p-6 md:p-8 border border-green-100 cursor-pointer"
+            onclick="openArticle('hiver')">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-[#2E5D35] font-bold">1️⃣</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Renforcer votre énergie en hiver</h3>
+              </div>
+              <span class="read-time text-[#2E5D35]">5 minutes</span>
+            </div>
+
+            <img src="/src/assets/images/blog/blog-winter.webp" alt="Énergie hivernale"
+              class="w-full h-48 object-cover rounded-lg mb-4">
+
+            <p class="text-gray-600 mb-4 italic">Imaginez votre corps comme un lac gelé en hiver : la surface semble
+              immobile, mais en profondeur, la vie continue doucement...</p>
+
+            <div class="space-y-3 text-gray-700 mb-6">
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Alimentation réchauffante</span>
+                <span> - Soupes mijotées et racines</span>
+              </div>
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Repos qualité</span>
+                <span> - Chaque minute de sommeil avant minuit compte</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+              <i class="fas fa-book-open mr-2"></i>
+              Lire l'article complet
+            </button>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="article-card rounded-2xl p-6 md:p-8 border border-green-100 cursor-pointer"
+            onclick="openArticle('qi')">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-[#2E5D35] font-bold">2️⃣</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Le Qi : l'énergie vitale qui circule en vous</h3>
+              </div>
+              <span class="read-time text-[#2E5D35]">4 minutes</span>
+            </div>
+
+            <img src="/src/assets/images/blog/blog-qi.webp" alt="Énergie Qi"
+              class="w-full h-48 object-cover rounded-lg mb-4">
+
+            <p class="text-gray-600 mb-4 italic">Le Qi est invisible, mais vous le ressentez chaque matin : l'énergie
+              qui
+              vous fait sortir du lit, sourire, respirer...</p>
+
+            <div class="space-y-3 text-gray-700 mb-6">
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Rôle du Qi</span>
+                <span> - Nourrit vos organes comme un jardinier</span>
+              </div>
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Déséquilibres</span>
+                <span> - Fatigue, tensions, digestion difficile</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+              <i class="fas fa-book-open mr-2"></i>
+              Lire l'article complet
+            </button>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="article-card rounded-2xl p-6 md:p-8 border border-green-100 cursor-pointer"
+            onclick="openArticle('saisons')">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-[#2E5D35] font-bold">3️⃣</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Les saisons en Médecine Chinoise</h3>
+              </div>
+              <span class="read-time text-[#2E5D35]">6 minutes</span>
+            </div>
+
+            <img src="/src/assets/images/blog/blog-season.webp" alt="Saisons MTC"
+              class="w-full h-48 object-cover rounded-lg mb-4">
+
+            <p class="text-gray-600 mb-4 italic">L'homme est un reflet de la nature. Les saisons ne sont pas que des
+              repères sur un calendrier...</p>
+
+            <div class="space-y-3 text-gray-700 mb-6">
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Printemps</span>
+                <span> - Foie / Bois - Créativité</span>
+              </div>
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Été</span>
+                <span> - Cœur / Feu - Passion</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+              <i class="fas fa-book-open mr-2"></i>
+              Lire l'article complet
+            </button>
+          </div>
+
+          <!-- Article 4 -->
+          <div class="article-card rounded-2xl p-6 md:p-8 border border-green-100 cursor-pointer"
+            onclick="openArticle('stress')">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-[#2E5D35] font-bold">4️⃣</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Stress et émotions</h3>
+              </div>
+              <span class="read-time text-[#2E5D35]">5 minutes</span>
+            </div>
+
+            <img src="/src/assets/images/blog/blog-stress.webp" alt="Équilibre émotionnel"
+              class="w-full h-48 object-cover rounded-lg mb-4">
+
+            <p class="text-gray-600 mb-4 italic">Saviez-vous que vos émotions ont un organe attitré ? En Médecine
+              Chinoise, colère, joie, soucis, tristesse et peur ne sont pas que des sentiments...</p>
+
+            <div class="space-y-3 text-gray-700 mb-6">
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Colère</span>
+                <span> - Foie</span>
+              </div>
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Tristesse</span>
+                <span> - Poumons</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+              <i class="fas fa-book-open mr-2"></i>
+              Lire l'article complet
+            </button>
+          </div>
+
+          <!-- Article 5 -->
+          <div class="article-card rounded-2xl p-6 md:p-8 border border-green-100 cursor-pointer"
+            onclick="openArticle('nutrition')">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-[#2E5D35] font-bold">5️⃣</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800">Nutrition chinoise</h3>
+              </div>
+              <span class="read-time text-[#2E5D35]">4 minutes</span>
+            </div>
+
+            <img src="/src/assets/images/blog/blog-nutrition.webp" alt="Nutrition MTC"
+              class="w-full h-48 object-cover rounded-lg mb-4">
+
+            <p class="text-gray-600 mb-4 italic">Votre Rate et votre Estomac sont comme le moteur de votre énergie
+              vitale.
+              Une digestion efficace est la base de toute vitalité...</p>
+
+            <div class="space-y-3 text-gray-700 mb-6">
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Aliments chauds</span>
+                <span> - Facilite la digestion</span>
+              </div>
+              <div class="flex items-start">
+                <span class="text-[#2E5D35] mr-2">•</span>
+                <span class="font-bold mr-1">Heures régulières</span>
+                <span> - Respecte votre horloge biologique</span>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-[#2E5D35] hover:bg-[#4A7C59] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300">
+              <i class="fas fa-book-open mr-2"></i>
+              Lire l'article complet
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal/Popup -->
+    <div id="article-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+      <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-6">
+              <h2 id="modal-title" class="text-2xl font-bold text-gray-800"></h2>
+              <button onclick="closeArticle()" class="text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times text-2xl"></i>
+              </button>
+            </div>
+            <div id="modal-content" class="prose max-w-none space-y-6">
+              <!-- Le contenu sera injecté ici par JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer sera chargé ici -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/blog/blog.js"></script>
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+</body>
+
+</html>

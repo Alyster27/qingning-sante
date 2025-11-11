@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qingning Santé - Acupuncture et Médecine Chinoise à Genève</title>
+  <link rel="stylesheet" href="src/css/input.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+
+  <style>
+
+  </style>
+</head>
+
+<body class="font-sans">
+  <!-- Header sera chargé ici -->
+  <div id="header-container"></div>
+
+  <main class="pt-24">
+    <!-- CONTENU SPÉCIFIQUE À LA PAGE -->
+
+    <!-- Hero Section -->
+    <section class="bg-[#2E5D35] text-white">
+      <div class="container mx-auto px-4 py-20">
+        <h1 class="text-4xl md:text-5xl font-bold mb-8" data-i18n="home.title"></h1>
+        <p class="text-xl mb-8" data-i18n="home.subtitle"></p>
+        <p class="text-xl mb-4" data-i18n="home.paragraph"></p>
+
+        <!-- Ton carrousel ici -->
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+          <!-- Carousel wrapper -->
+          <div class="relative h-96 overflow-hidden rounded-lg md:h-[600px]">
+            <!-- Slide Acupuncture -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.acupuncture.title"></h2>
+                <p data-i18n="home.carousel.acupuncture.paragraph"></p>
+                <a href="src/soins/acupuncture/acupuncture.html" data-i18n="home.carousel.acupuncture.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/home-slide-acupuncture.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Moxibustion -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.moxibustion.title"></h2>
+                <p data-i18n="home.carousel.moxibustion.paragraph"></p>
+                <a href="src/soins/moxibustion/moxibustion.html" data-i18n="home.carousel.moxibustion.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/home-slide-moxibustion.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Ventouses -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.ventouses.title"></h2>
+                <p data-i18n="home.carousel.ventouses.paragraph"></p>
+                <a href="src/soins/ventouses/ventouses.html" data-i18n="home.carousel.ventouses.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/home-slide-ventouse.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Tuina -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg" data-i18n="home.carousel.tuina.title">
+                </h2>
+                <p data-i18n="home.carousel.tuina.paragraph"></p>
+                <a href="src/soins/tuina/tuina.html" data-i18n="home.carousel.tuina.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/hom-slide-tuina.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Phytotherapie -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.phytotherapie.title"></h2>
+                <p data-i18n="home.carousel.phytotherapie.paragraph"></p>
+                <a href="src/soins/phytotherapie/phytotherapie.html" data-i18n="home.carousel.phytotherapie.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/hom-slide-phytotherapie.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Nutrition -->
+            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.nutrition.title"></h2>
+                <p data-i18n="home.carousel.nutrition.paragraph"></p>
+                <a href="src/soins/nutrition/nutrition.html" data-i18n="home.carousel.nutrition.link"></a>
+              </div>
+
+              <img src="src/assets/images/accueil-page/home-slide-nutrition.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+          </div>
+
+          <!-- Slider Indicators - VERSION RENFORCÉE -->
+          <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+          </div>
+
+          <!-- Slider controls - EN VERT -->
+          <button type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-600/80 hover:bg-green-500 group-hover:bg-green-500/90 group-focus:ring-4 group-focus:ring-green-300 group-focus:outline-none transition-colors">
+              <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M5 1 1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button"
+            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-600/80 hover:bg-green-500 group-hover:bg-green-500/90 group-focus:ring-4 group-focus:ring-green-300 group-focus:outline-none transition-colors">
+              <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 9 4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Introduction du site -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-4xl">
+
+        <!-- Introduction -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-[#2E5D35] mb-6" data-i18n="home.introduction.title">
+          </h2>
+          <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="home.introduction.paragraph">
+          </p>
+        </div>
+
+        <!-- Notre expertise -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-[#2E5D35] mb-6" data-i18n="home.expertise.title"></h2>
+          <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="home.expertise.paragraph"></p>
+        </div>
+
+        <!-- Votre séance -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-[#2E5D35] mb-6" data-i18n="home.session.title"></h2>
+          <p class="text-lg text-[#2E5D35] mb-4 leading-relaxed" data-i18n="home.session.intro">
+          </p>
+          <ul class="text-lg text-[#2E5D35] space-y-3 ml-6" data-i18n="home.session.benefits">
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-3">•</span>
+              Rééquilibrer votre énergie vitale (Qi)
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-3">•</span>
+              Stimuler vos capacités naturelles d'auto-guérison
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-3">•</span>
+              Retrouver sérénité et vitalité
+            </li>
+            <li class="flex items-start">
+              <span class="text-[#8BC34A] mr-3">•</span>
+              Apaiser les douleurs chroniques
+            </li>
+          </ul>
+        </div>
+
+        <!-- Localisation -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-[#2E5D35] mb-6" data-i18n="home.location.title"></h2>
+          <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="home.location.paragraph"></p>
+        </div>
+
+        <!-- Certification -->
+        <div class="mb-12 bg-emerald-100 p-6 rounded-lg border border-[#E8F5E8]">
+          <h2 class="text-2xl font-bold text-[#2E5D35] mb-4" data-i18n="home.certification.title"></h2>
+          <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="home.certification.paragraph"></p>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-[#2E5D35] text-white p-8 rounded-lg text-center">
+          <div class="text-3xl mb-4">📞</div>
+          <h3 class="text-2xl font-bold mb-4" data-i18n="home.cta.title"></h3>
+          <p class="text-lg mb-6 opacity-90" data-i18n="home.cta.subtitle"></p>
+          <a href="contact.html#rdv"
+            class="inline-block bg-[#8BC34A] hover:bg-[#7CB342] text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300"
+            data-i18n="home.cta.button"></a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer sera chargé ici -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+</body>
+
+</html>

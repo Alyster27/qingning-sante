@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acupuncture LIFT</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Header sera chargé ici -->
+  <div id="header-container"></div>
+
+  <!-- CONTENU DE LA PAGE HEALTH -->
+  <main class="pt-24">
+    <div class="pt-16 pb-16 bg-[#2E5D35] text-white">
+      <h2 class="text-4xl font-bold mb-8 text-center" data-i18n="acupunctureLift.title"></h2>
+      <p class="text-lg md:text-2xl max-w-3xl mx-auto mb-8 px-4 text-center" data-i18n="acupunctureLift.subtitle"></p>
+      <div class="w-20 h-1 bg-green-400 mx-auto"></div>
+    </div>
+    <!-- SECTION 1 - Qu'est ce que c'est -->
+    <section class="py-16">
+      <div class="py-16 container mx-auto px-4">
+        <!-- Bloc 1 - Image à droite -->
+        <h4 class="text-2xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="acupunctureLift.section1.title"></h4>
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="acupunctureLift.section1.paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/acupuncture-lift/acupuncture-lift1.webp" alt="Philosophie Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 - Les bienfaits -->
+    <section class="py-16 bg-emerald-100 text-center">
+      <div class="py-16 container mx-auto px-4">
+        <h4 class="text-2xl font-bold text-[#2E5D35] mb-6" data-i18n="acupunctureLift.section2.title"></h4>
+        <ul class="text-lg text-[#2E5D35] space-y-3 ml-6">
+          <li class="flex items-start">
+            <span class="text-[#8BC34A] mr-3">•</span>
+            <span data-i18n="acupunctureLift.section2.benefit1"></span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-[#8BC34A] mr-3">•</span>
+            <span data-i18n="acupunctureLift.section2.benefit2"></span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-[#8BC34A] mr-3">•</span>
+            <span data-i18n="acupunctureLift.section2.benefit3"></span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-[#8BC34A] mr-3">•</span>
+            <span data-i18n="acupunctureLift.section2.benefit4"></span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-[#8BC34A] mr-3">•</span>
+            <span data-i18n="acupunctureLift.section2.benefit5"></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 3 - Approche -->
+    <section class="py-16">
+      <div class="py-16 container mx-auto px-4">
+        <!-- Bloc 1 - Image à gauche -->
+        <h4 class="text-2xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="acupunctureLift.section3.title"></h4>
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/acupuncture-lift/acupuncture-lift2.webp" alt="Philosophie Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="acupunctureLift.section3.paragraph"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 - Comment ça marche ? -->
+    <section class="py-16 bg-emerald-100">
+      <div class="py-16 container mx-auto px-4">
+        <!-- Bloc 1 - Image à droite -->
+        <h4 class="text-2xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="acupunctureLift.section4.title"></h4>
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="acupunctureLift.section4.paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/acupuncture-lift/acupuncture-lift3.webp" alt="Philosophie Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- Footer sera chargé ici -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+</body>
+
+</html>

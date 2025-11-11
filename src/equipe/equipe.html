@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Équipe</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Header sera chargé ici -->
+  <div id="header-container"></div>
+  <!-- CONTENU DE LA PAGE ABOUT -->
+  <main class="pt-24">
+    <!-- Section 1 - Introduction -->
+    <section>
+      <div class="pt-16 pb-16 bg-[#2E5D35] text-white">
+        <h2 class="text-4xl font-bold mb-8 text-center" data-i18n="therapeute.section1.title"></h2>
+        <p class="text-lg md:text-2xl max-w-3xl mx-auto mb-8 px-4 text-center" data-i18n="therapeute.section1.subtitle">
+        </p>
+        <div class="w-20 h-1 bg-green-400 mx-auto"></div>
+      </div>
+      <div class="py-16 container mx-auto px-4">
+        <!-- Bloc 1 - Image à droite -->
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="therapeute.section1.bloc1-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/therapeute/groupe.webp" alt="Philosophie Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 - Dr Liqiang Deng -->
+    <section class="py-16 bg-emerald-100">
+      <div class="container mx-auto px-4">
+        <!-- Bloc 1 - Image à gauche -->
+        <h3 class="text-3xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="therapeute.section2.title"></h3>
+        <h4 class="text-2xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="therapeute.section2.subtitle"></h4>
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/therapeute/deng.webp" alt="Photo du DR Liqiang Deng"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="therapeute.section2.bloc1-paragraph"></p>
+          </div>
+        </div>
+        <!-- Bloc 2 - Image à droite -->
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="therapeute.section2.bloc2-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/therapeute/deng-experience.webp" alt="Mission Qingning Santé"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 - Dr Yongyan Sui -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <!-- Bloc 1 - Image à gauche -->
+        <h3 class="text-3xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="therapeute.section3.title"></h3>
+        <h4 class="text-2xl text-[#2E5D35] font-bold mb-12 text-center" data-i18n="therapeute.section3.subtitle"></h4>
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/therapeute/yongyan.webp" alt="Photo du DR Liqiang Deng"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="therapeute.section3.bloc1-paragraph"></p>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center gap-8 mb-16">
+          <div class="lg:w-1/2">
+            <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="therapeute.section3.bloc2-paragraph"></p>
+          </div>
+          <div class="lg:w-1/2">
+            <img src="/src/assets/images/therapeute/yongyan-experience.webp" alt="Photo du DR Liqiang Deng"
+              class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer sera chargé ici -->
+  <div id="footer-container"></div>
+
+  <!-- Scripts -->
+  <script src="/src/js/languages.js"></script>
+  <script src="/src/js/global-i18n.js"></script>
+  <script src="/src/js/header-loader.js"></script>
+  <script src="/src/js/footer-loader.js"></script>
+</body>
+
+</html>
