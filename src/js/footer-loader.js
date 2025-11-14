@@ -1,13 +1,9 @@
 // Charge le header sur toutes les pages
 async function loadFooter() {
     try {
-        // CHEMIN CORRIGÉ
         const response = await fetch('/src/components/footer.html');
         const headerHTML = await response.text();
         document.getElementById('footer-container').innerHTML = headerHTML;
-        
-        // Initialise le menu mobile après chargement
-        initMobileMenu();
         
         // Initialise le sélecteur de langue après chargement du header
         setTimeout(() => {

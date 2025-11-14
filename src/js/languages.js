@@ -1,25 +1,25 @@
 const translations = {
     fr: {
-        /** ===== HEADER & NAVIGATION ===== */
+        /** ===== COMPOSENT HEADER ===== */
         'header': {
             'home': 'Accueil',
             'about': 'À propos',
-            'therapeute': 'Thérapeute',
-            'vitality': 'Vitalité',
+            'therapeute': 'Thérapeute',           
             'services': 'Soins',
-            'tarifs': 'Tarifs',
-            'faq': 'FAQ',
-            'blog': 'Blog',
-            'contact': 'Contact',
-            'book': 'Prendre RDV',
             'servicesDropdown': {
                 'acupuncture': 'Acupuncture',
+                'acupunctureLift': 'Acupuncture Lift',
                 'moxibustion': 'Moxibustion',
                 'ventouses': 'Ventouses',
                 'tuina': 'Massage Tui Na',
                 'phytotherapie': 'Phytothérapie',
                 'nutrition': 'Nutrition MTC'
-            }
+            },
+            'vitality': 'Vitalité',
+            'tarifs': 'Tarifs',           
+            'blog': 'Blog',
+            'faq': 'FAQ',
+            'contact': 'Contact',            
         },
 
         /** ===== PAGE ACCUEIL ===== */
@@ -1008,26 +1008,26 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
     },
 
     en: {
-        /** ===== HEADER & NAVIGATION ===== */
+        /** ===== HEADER COMPONENT ===== */
         'header': {
             'home': 'Home',
             'about': 'About',
             'therapeute': 'Practitioner',
-            'vitality': 'Vitality',
-            'services': 'Services',
-            'tarifs': 'Prices',
-            'faq': 'FAQ',
-            'blog': 'Blog',
-            'contact': 'Contact',
-            'book': 'Book Appointment',
+            'services': 'Treatments',
             'servicesDropdown': {
                 'acupuncture': 'Acupuncture',
+                'acupunctureLift': 'Acupuncture Lift',
                 'moxibustion': 'Moxibustion',
-                'ventouses': 'Cupping Therapy',
+                'ventouses': 'Cupping',
                 'tuina': 'Tui Na Massage',
-                'phytotherapie': 'Chinese Phytotherapy',
-                'nutrition': 'Chinese Nutrition'
-            }
+                'phytotherapie': 'Phytotherapy',
+                'nutrition': 'TCM Nutrition'
+            },
+            'vitality': 'Vitality',
+            'tarifs': 'Prices',
+            'blog': 'Blog',
+            'faq': 'FAQ',
+            'contact': 'Contact',
         },
 
         /** ===== HOME PAGE ===== */
@@ -2012,26 +2012,26 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
     },
 
     zh: {
-        /** ===== HEADER & NAVIGATION ===== */
+        /** ===== HEADER COMPONENT ===== */
         'header': {
             'home': '首页',
             'about': '关于我们',
             'therapeute': '治疗师',
-            'vitality': '活力健康',
-            'services': '服务项目',
-            'tarifs': '价格',
-            'faq': '常见问题',
-            'blog': '博客',
-            'contact': '联系我们',
-            'book': '预约就诊',
+            'services': '治疗服务',
             'servicesDropdown': {
                 'acupuncture': '针灸',
+                'acupunctureLift': '针灸提升',
                 'moxibustion': '艾灸',
-                'ventouses': '拔罐疗法',
+                'ventouses': '拔罐',
                 'tuina': '推拿按摩',
                 'phytotherapie': '中药疗法',
                 'nutrition': '中医营养'
-            }
+            },
+            'vitality': '活力养生',
+            'tarifs': '价格',
+            'blog': '博客',
+            'faq': '常见问题',
+            'contact': '联系我们',
         },
         /** ===== HOME PAGE ===== */
         'home': {
