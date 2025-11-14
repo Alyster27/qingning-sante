@@ -1,0 +1,23 @@
+.faq-card {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.faq-card:hover {
+  border-left-color: #2E5D35;
+  transform: translateX(8px);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-toggle:checked+.accordion-label+.accordion-content {
+  max-height: 500px;
+}
+
+.accordion-toggle:checked+.accordion-label .accordion-icon {
+  transform: rotate(180deg);
+}

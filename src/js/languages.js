@@ -682,7 +682,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             }
         },
 
-        /** ===== PAGE DE TARIFS ===== */
+        /** ===== PAGE DE BLOG ===== */
         'blog': {
             'section1': {
                 'title': 'Le Blog de Qingning Santé',
@@ -791,6 +791,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `Les saisons en Médecine Chinoise - Vivre en harmonie avec la nature`,
                     'paragraph': `L'homme est un reflet de la nature. Les saisons ne sont pas que des repères sur un calendrier : elles rythment notre énergie et notre santé. Vivre en harmonie avec elles, c'est danser avec le monde plutôt que lutter contre lui.`,
                     'fiveSeasons': {
+                        'title': `Les 5 saisons et leurs correspondances`,
                         'spring': {
                             'bold': `Printemps (Foie / Bois)`,
                             'text': ` : le monde s'éveille, les bourgeons poussent, votre créativité aussi.`
@@ -825,6 +826,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `Stress et émotions - L'équilibre du corps et de l'esprit`,
                     'paragraph': `Saviez-vous que vos émotions ont un organe attitré ? En Médecine Chinoise, colère, joie, soucis, tristesse et peur ne sont pas que des sentiments : ce sont des messages de votre corps.`,
                     'emotion': {
+                        'title': `Les émotions et leurs organes associés`,
                         'colere': {
                             'bold': `Colère`,
                             'text': ` - Foie`
@@ -851,12 +853,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'text': `Le stress bloque le Qi, perturbe votre sommeil et votre digestion. C'est comme un bouchon qui empêche l'eau de circuler dans un ruisseau : tout devient stagnant et froid.`
                     },
                     'techniques': {
-                        'bold': `Techniques pour équilibrer`,
+                        'title': `Techniques pour équilibrer`,
                         'text': `Respirez profondément, pratiquez la méditation, laissez l'acupuncture stimuler votre énergie, utilisez des plantes apaisantes. Chaque geste rétablit la circulation de votre Qi et apaise vos émotions.`
                     },
                     'footer': {
                         'text': `Écouter vos émotions, c'est comprendre votre corps et prévenir la maladie. Chaque souffle conscient est un pas vers l'équilibre intérieur.`,
-                        'button': ``
+                        'button': `Réserver une séance de relaxation énergétique`
                     }
                 },
                 'nutrition': {
@@ -887,6 +889,120 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'button': `Télécharger notre guide de recettes saisonnières`
                     }
                 }
+            }
+        },
+
+        /** ===== PAGE DE FAQ ===== */
+        'faq': {
+            'section1': {
+                'title': `Vos questions, nos réponses`,
+                'paragraph': `Tout ce que vous avez toujours voulu savoir sur la médecine chinoise et votre bien-être`
+            },
+            'section2': {
+                'title': `Questions Fréquentes`,
+                'paragraph': `Les réponses à vos interrogations les plus courantes`,
+                'question1': {
+                    'ask': `Combien de temps dure une séance ?`,
+                    'respond': `En moyenne 60 minutes, incluant :`,
+                    'li1': `l'entretien personnalisé,`,
+                    'li2': `le diagnostic énergétique,`,
+                    'li3': `et le traitement.`
+                },
+                'question2': {
+                    'ask': `Est-ce que l'acupuncture fait mal ?`,
+                    'respond': `Non. Les aiguilles utilisées sont très fines et leur insertion provoque au maximum une légère sensation, comparable à une piqûre de moustique. Nous privilégions toujours une stimulation douce et confortable, adaptée à votre sensibilité.`
+                },
+                'question3': {
+                    'ask': `Combien de séances sont nécessaires ?`,
+                    'respond1': `Cela dépend du type de problème et depuis combien de temps il est présent.`,
+                    'respond2': `En général, les troubles récents peuvent s'améliorer en quelques séances, parfois dès la première. Les problèmes plus anciens ou chroniques demandent souvent un suivi plus long.`,
+                    'respond3': `Un cycle de plusieurs semaines peut être utile, puis une séance mensuelle aide à maintenir l'équilibre et à éviter les rechutes.`
+                },
+                'question4': {
+                    'ask': `Pourquoi choisir l'acupuncture ?`,
+                    'respond': `L'acupuncture agit en profondeur sur les blocages énergétiques, favorise la circulation de l'énergie et aide le corps à retrouver son équilibre naturel. Elle peut être complémentaire à d'autres approches (physiothérapie, ostéopathie, massage) pour optimiser les résultats.`
+                },
+                'question5': {
+                    'ask': `Quelles mesures d'hygiène sont appliquées ?`,
+                    'respond': `Toutes les aiguilles sont stériles et à usage unique.`
+                },
+                'question6': {
+                    'ask': `À partir de quel âge peut-on recevoir des séances ?`,
+                    'respond': `L'acupuncture peut être pratiquée dès l'enfance. Pour un confort optimal, nous recommandons généralement d'attendre 4 à 5 ans, sauf indication particulière et avec l'accord des parents.`
+                },
+                'question7': {
+                    'ask': `Est-ce remboursé par l'assurance ?`,
+                    'respond': `En Suisse, de nombreuses assurances complémentaires remboursent tout ou partie des séances d'acupuncture. Chaque patient est invité à vérifier directement auprès de sa caisse maladie les modalités de remboursement.`
+                }
+            },
+            'section3': {
+                'title': `Une question spécifique ?`,
+                'paragraph': `Nous sommes là pour vous répondre personnellement`,
+                'button1': `Nous appeler`,
+                'button2': `Nous écrire`
+            }
+        },
+
+        /** ===== PAGE DE CONTACT ===== */
+        'contact': {
+            'section1': {
+                'title': `Votre chemin vers l'équilibre commence ici`,
+                'paragraph': `Prenez rendez-vous pour une consultation personnalisée en médecine chinoise`
+            },
+            'section2': {
+                'cardContact': {
+                    'title': `Qingning Santé Genève`,
+                    'paragraph': `Retrouvez équilibre et sérénité près de Châtelaine et Vernier`,
+                    'center': `Notre centre`,
+                    'spaces': `Spaces 4e étage, Place Casa Bamba 1`,
+                    'etang': `Quartier de l'Étang, Genève`,
+                    'phone': `Téléphone`,
+                    'email': `Email`,
+                    'rdv': `Prendre rendez-vous en ligne`,
+                    'reserve': `Réservation simple et sécurisée via Onedoc`
+                },
+                'horaire': {
+                    'title': `Horaires d'ouverture`,
+                    'paragraph': `Des créaux adaptés à votre emploi du temps`,
+                    'week': `Lundi - Vendredi`,
+                    'saturday': `Samedi`,
+                    'sunday': `Dimanche`,
+                    'close': `Fermé`,
+                    'urgent': `Besoin d'un rendez-vous urgent ?`,
+                    'call': `Appelez-nous directement, nous ferons notre possible pour vous accommoder.`
+                }
+            },
+            'section3': {
+                'title': `Accès à Qingning Santé Genève`,
+                'paragraph': `Notre centre est facilement accessible depuis tout Genève`,
+                'bus': {
+                    'title': `En transports publics`,
+                    'bold1': `Tram 18 ou 14`,
+                    'text1': ` - Arrêt Avanchet-Étang (3 min à pied)`,
+                    'bold2': `Bus 28`,
+                    'text2': ` - Arrêt Vernier, Étang Place (2-3 min à pied)`
+                },
+                'voiture': {
+                    'title': `En voiture`,
+                    'text1': `Sortie d'autoroute `,
+                    'bold1': `Genève-Vernier`,
+                    'bold2': `Parking public`,
+                    'text2': ` disponible à proximité`
+                },
+                'velo': {
+                    'title': `À pied ou à vélo`,
+                    'text1': `Accessible depuis `,
+                    'bold1': `Châtelaine et Vernier`,
+                    'text2': `Idéal pour les `,
+                    'bold2': `habitants du quartier`
+                }
+            },
+            'section4': {
+                'title': `Prêt à retrouver votre équilibre ?`,
+                'paragraph': `Réservez votre consultation dès aujourd'hui et faites le premier pas vers une santé optimale`,
+                'button1': `Prendre rendez-vous`,
+                'button2': `Nous appeler`,
+                'span': `Réponse rapide garantie sous 24h`
             }
         }
     },
@@ -1679,6 +1795,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `Seasons in Chinese Medicine - Living in Harmony with Nature`,
                     'paragraph': `Humans reflect nature. Seasons are not just calendar markers: they rhythm our energy and health. Living in harmony with them is dancing with the world rather than fighting against it.`,
                     'fiveSeasons': {
+                        "title": "The 5 seasons and their correspondences",
                         'spring': {
                             'bold': `Spring (Liver / Wood)`,
                             'text': `: the world awakens, buds grow, your creativity too.`
@@ -1713,6 +1830,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `Stress and Emotions - Body and Mind Balance`,
                     'paragraph': `Did you know your emotions have assigned organs? In Chinese Medicine, anger, joy, worry, sadness and fear are not just feelings: they're messages from your body.`,
                     'emotion': {
+                        'title': `Emotions and their associated organs`,
                         'colere': {
                             'bold': `Anger`,
                             'text': ` - Liver`
@@ -1739,12 +1857,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'text': `Stress blocks Qi, disrupts your sleep and digestion. It's like a cork preventing water from circulating in a stream: everything becomes stagnant and cold.`
                     },
                     'techniques': {
-                        'bold': `Balancing Techniques`,
+                        'title': `Balancing Techniques`,
                         'text': `Breathe deeply, practice meditation, let acupuncture stimulate your energy, use soothing plants. Every gesture restores your Qi circulation and soothes your emotions.`
                     },
                     'footer': {
                         'text': `Listening to your emotions means understanding your body and preventing illness. Every conscious breath is a step toward inner balance.`,
-                        'button': ``
+                        'button': `Book an energy relaxation session`
                     }
                 },
                 'nutrition': {
@@ -1775,6 +1893,120 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'button': `Download our seasonal recipe guide`
                     }
                 }
+            }
+        },
+
+        /** ===== FAQ PAGE ===== */
+        'faq': {
+            'section1': {
+                'title': `Your Questions, Our Answers`,
+                'paragraph': `Everything you've always wanted to know about Chinese medicine and your well-being`
+            },
+            'section2': {
+                'title': `Frequently Asked Questions`,
+                'paragraph': `Answers to your most common questions`,
+                'question1': {
+                    'ask': `How long does a session last?`,
+                    'respond': `On average 60 minutes, including:`,
+                    'li1': `personal consultation,`,
+                    'li2': `energy diagnosis,`,
+                    'li3': `and treatment.`
+                },
+                'question2': {
+                    'ask': `Does acupuncture hurt?`,
+                    'respond': `No. The needles used are very fine and their insertion causes at most a slight sensation, comparable to a mosquito bite. We always prioritize gentle and comfortable stimulation, adapted to your sensitivity.`
+                },
+                'question3': {
+                    'ask': `How many sessions are needed?`,
+                    'respond1': `It depends on the type of problem and how long it has been present.`,
+                    'respond2': `Generally, recent issues can improve in a few sessions, sometimes from the first one. Older or chronic problems often require longer follow-up.`,
+                    'respond3': `A cycle of several weeks may be useful, then a monthly session helps maintain balance and prevent relapses.`
+                },
+                'question4': {
+                    'ask': `Why choose acupuncture?`,
+                    'respond': `Acupuncture works deeply on energy blockages, promotes energy circulation and helps the body regain its natural balance. It can complement other approaches (physiotherapy, osteopathy, massage) to optimize results.`
+                },
+                'question5': {
+                    'ask': `What hygiene measures are applied?`,
+                    'respond': `All needles are sterile and single-use.`
+                },
+                'question6': {
+                    'ask': `From what age can one receive sessions?`,
+                    'respond': `Acupuncture can be practiced from childhood. For optimal comfort, we generally recommend waiting until 4-5 years old, unless otherwise indicated and with parental consent.`
+                },
+                'question7': {
+                    'ask': `Is it covered by insurance?`,
+                    'respond': `In Switzerland, many supplementary insurance policies cover all or part of acupuncture sessions. Each patient is invited to check directly with their health insurance provider for reimbursement details.`
+                }
+            },
+            'section3': {
+                'title': `A specific question?`,
+                'paragraph': `We are here to answer you personally`,
+                'button1': `Call us`,
+                'button2': `Write to us`
+            }
+        },
+
+        /** ===== CONTACT PAGE ===== */
+        'contact': {
+            'section1': {
+                'title': `Your Path to Balance Starts Here`,
+                'paragraph': `Book an appointment for a personalized Chinese medicine consultation`
+            },
+            'section2': {
+                'cardContact': {
+                    'title': `Qingning Santé Geneva`,
+                    'paragraph': `Rediscover balance and serenity near Châtelaine and Vernier`,
+                    'center': `Our center`,
+                    'spaces': `Spaces 4th floor, Place Casa Bamba 1`,
+                    'etang': `Étang neighborhood, Geneva`,
+                    'phone': `Phone`,
+                    'email': `Email`,
+                    'rdv': `Book appointment online`,
+                    'reserve': `Simple and secure booking via Onedoc`
+                },
+                'horaire': {
+                    'title': `Opening Hours`,
+                    'paragraph': `Time slots adapted to your schedule`,
+                    'week': `Monday - Friday`,
+                    'saturday': `Saturday`,
+                    'sunday': `Sunday`,
+                    'close': `Closed`,
+                    'urgent': `Need an urgent appointment?`,
+                    'call': `Call us directly, we'll do our best to accommodate you.`
+                }
+            },
+            'section3': {
+                'title': `Access to Qingning Santé Geneva`,
+                'paragraph': `Our center is easily accessible from all of Geneva`,
+                'bus': {
+                    'title': `By public transport`,
+                    'bold1': `Tram 18 or 14`,
+                    'text1': ` - Avanchet-Étang stop (3 min walk)`,
+                    'bold2': `Bus 28`,
+                    'text2': ` - Vernier, Étang Place stop (2-3 min walk)`
+                },
+                'voiture': {
+                    'title': `By car`,
+                    'text1': `Highway exit `,
+                    'bold1': `Geneva-Vernier`,
+                    'bold2': `Public parking`,
+                    'text2': ` available nearby`
+                },
+                'velo': {
+                    'title': `On foot or by bike`,
+                    'text1': `Accessible from `,
+                    'bold1': `Châtelaine and Vernier`,
+                    'text2': `Ideal for `,
+                    'bold2': `neighborhood residents`
+                }
+            },
+            'section4': {
+                'title': `Ready to rediscover your balance?`,
+                'paragraph': `Book your consultation today and take the first step towards optimal health`,
+                'button1': `Book an appointment`,
+                'button2': `Call us`,
+                'span': `Quick response guaranteed within 24h`
             }
         }
     },
@@ -2567,6 +2799,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `中医四季养生 - 与自然和谐共处`,
                     'paragraph': `人如自然缩影。季节不仅是日历标记：它们调节我们能量和健康。与之和谐共处是与世界共舞而非抗争。`,
                     'fiveSeasons': {
+                        "title": "五季及其对应关系",
                         'spring': {
                             'bold': `春季（肝/木）`,
                             'text': `：世界苏醒，萌芽生长，您的创造力也是。`
@@ -2601,6 +2834,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': `压力与情绪 - 身心平衡`,
                     'paragraph': `您知道情绪有专属器官吗？在中医中，怒、喜、思、悲、恐不仅是感受：它们是身体的信息。`,
                     'emotion': {
+                        'title': `情绪及其相关脏腑`,
                         'colere': {
                             'bold': `怒`,
                             'text': ` - 肝`
@@ -2627,12 +2861,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'text': `压力阻滞气，扰乱睡眠和消化。如塞子阻止溪水循环：一切变得停滞寒冷。`
                     },
                     'techniques': {
-                        'bold': `平衡技巧`,
+                        'title': `平衡技巧`,
                         'text': `深呼吸、练习冥想、让针灸刺激能量、使用舒缓植物。每个动作恢复气循环并安抚情绪。`
                     },
                     'footer': {
                         'text': `倾听情绪意味理解身体预防疾病。每个意识呼吸都是迈向内在平衡的一步。`,
-                        'button': ``
+                        'button': `预约能量放松疗程`
                     }
                 },
                 'nutrition': {
@@ -2663,6 +2897,120 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                         'button': `下载我们的时令食谱指南`
                     }
                 }
+            }
+        },
+
+        /** ===== FAQ PAGE ===== */
+        'faq': {
+            'section1': {
+                'title': `您的问题，我们的答案`,
+                'paragraph': `关于中医和您的健康，您一直想知道的一切`
+            },
+            'section2': {
+                'title': `常见问题`,
+                'paragraph': `您最常见问题的答案`,
+                'question1': {
+                    'ask': `一次疗程持续多长时间？`,
+                    'respond': `平均60分钟，包括：`,
+                    'li1': `个性化咨询，`,
+                    'li2': `能量诊断，`,
+                    'li3': `和治疗。`
+                },
+                'question2': {
+                    'ask': `针灸会痛吗？`,
+                    'respond': `不会。使用的针非常细，插入时最多会引起轻微感觉，类似于蚊子叮咬。我们始终优先考虑温和舒适的刺激，适应您的敏感度。`
+                },
+                'question3': {
+                    'ask': `需要多少次疗程？`,
+                    'respond1': `这取决于问题的类型和存在的时间长短。`,
+                    'respond2': `一般来说，近期问题可以在几次疗程中改善，有时从第一次就开始见效。较旧或慢性问题通常需要更长的随访。`,
+                    'respond3': `几周的周期可能有用，然后每月一次的疗程有助于保持平衡并预防复发。`
+                },
+                'question4': {
+                    'ask': `为什么选择针灸？`,
+                    'respond': `针灸深入作用于能量阻塞，促进能量循环，帮助身体恢复自然平衡。它可以补充其他方法（物理治疗、整骨疗法、按摩）以优化结果。`
+                },
+                'question5': {
+                    'ask': `采取了哪些卫生措施？`,
+                    'respond': `所有针都是无菌且一次性使用的。`
+                },
+                'question6': {
+                    'ask': `从几岁可以接受治疗？`,
+                    'respond': `针灸可以从儿童时期开始实践。为了最佳舒适度，我们通常建议等到4-5岁，除非有特殊指示并得到家长同意。`
+                },
+                'question7': {
+                    'ask': `保险会报销吗？`,
+                    'respond': `在瑞士，许多补充保险会报销针灸疗程的全部或部分费用。每位患者都被邀请直接向其健康保险公司核实报销详情。`
+                }
+            },
+            'section3': {
+                'title': `有具体问题？`,
+                'paragraph': `我们在此为您亲自解答`,
+                'button1': `致电我们`,
+                'button2': `写信给我们`
+            }
+        },
+
+        /** ===== 联系页面 ===== */
+        'contact': {
+            'section1': {
+                'title': `您的平衡之路从这里开始`,
+                'paragraph': `预约个性化中医咨询`
+            },
+            'section2': {
+                'cardContact': {
+                    'title': `日内瓦清宁健康`,
+                    'paragraph': `在沙泰莱恩和韦尔尼耶附近重获平衡与宁静`,
+                    'center': `我们的中心`,
+                    'spaces': `Spaces 4楼, Casa Bamba广场1号`,
+                    'etang': `日内瓦池塘区`,
+                    'phone': `电话`,
+                    'email': `邮箱`,
+                    'rdv': `在线预约`,
+                    'reserve': `通过Onedoc简单安全地预订`
+                },
+                'horaire': {
+                    'title': `营业时间`,
+                    'paragraph': `适合您日程的时间段`,
+                    'week': `周一 - 周五`,
+                    'saturday': `周六`,
+                    'sunday': `周日`,
+                    'close': `休息`,
+                    'urgent': `需要紧急预约？`,
+                    'call': `直接致电我们，我们将尽力为您安排。`
+                }
+            },
+            'section3': {
+                'title': `前往日内瓦清宁健康`,
+                'paragraph': `我们的中心从日内瓦各地都很容易到达`,
+                'bus': {
+                    'title': `公共交通`,
+                    'bold1': `电车18或14路`,
+                    'text1': ` - Avanchet-Étang站（步行3分钟）`,
+                    'bold2': `巴士28路`,
+                    'text2': ` - Vernier, Étang Place站（步行2-3分钟）`
+                },
+                'voiture': {
+                    'title': `自驾`,
+                    'text1': `高速公路出口 `,
+                    'bold1': `日内瓦-韦尔尼耶`,
+                    'bold2': `公共停车场`,
+                    'text2': ` 附近有`
+                },
+                'velo': {
+                    'title': `步行或自行车`,
+                    'text1': `可从 `,
+                    'bold1': `沙泰莱恩和韦尔尼耶`,
+                    'text2': `到达，适合 `,
+                    'bold2': `附近居民`
+                }
+            },
+            'section4': {
+                'title': `准备好重获平衡了吗？`,
+                'paragraph': `今天预约您的咨询，迈出通往最佳健康的第一步`,
+                'button1': `预约咨询`,
+                'button2': `致电我们`,
+                'span': `保证24小时内快速回复`
             }
         }
     }

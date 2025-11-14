@@ -1,0 +1,25 @@
+.contact-card {
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: #2E5D35;
+  box-shadow: 0 20px 40px rgba(46, 93, 53, 0.15);
+}
+
+.map-container {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-day {
+  transition: all 0.3s ease;
+}
+
+.schedule-day:hover {
+  background-color: #f0f9f0;
+  transform: translateX(5px);
+}
