@@ -8,28 +8,32 @@
           <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center mr-3">
             <i class="fas fa-leaf text-white text-sm"></i>
           </div>
-          <h3 class="text-xl font-bold">Qingning Santé</h3>
+          <h3 class="text-xl font-bold" data-i18n="footer.title"></h3>
         </div>
-        <p class="text-gray-300 mb-4 text-sm leading-relaxed">
-          Médecine traditionnelle chinoise à Genève. Votre santé, notre tradition.
-        </p>
-        <div class="flex flex-wrap gap-2">
-          <div class="bg-white/10 px-3 py-1 rounded-full text-xs font-medium">
-            ASCA
+        <p class="text-gray-300 mb-4 text-sm leading-relaxed" data-i18n="footer.paragraph"></p>
+        <div class="flex flex-wrap gap-3 items-center">
+          <div
+            class="bg-white/20 backdrop-blur-sm p-2 rounded-xl transition-all duration-300 hover:bg-white/30 hover:scale-105">
+            <a href="https://asca.ch/" target="_blank" class="block">
+              <img class="w-12 h-12 object-contain" src="/src/assets/images/footer/logo-asca.webp" alt="logo asca">
+            </a>
           </div>
-          <div class="bg-white/10 px-3 py-1 rounded-full text-xs font-medium">
-            RME
+          <div
+            class="bg-white/20 backdrop-blur-sm p-2 rounded-xl transition-all duration-300 hover:bg-white/30 hover:scale-105">
+            <a href="https://rme.ch/" target="_blank" class="block">
+              <img class="w-12 h-12 object-contain" src="/src/assets/images/footer/logo-rem.webp" alt="logo rme">
+            </a>
           </div>
         </div>
       </div>
 
       <!-- Colonne 2 - Contact compact -->
       <div>
-        <h4 class="text-md font-bold mb-4">Contact</h4>
+        <h4 class="text-md font-bold mb-4" data-i18n="footer.contact"></h4>
         <div class="space-y-2 text-gray-300 text-sm">
           <div class="flex items-center">
             <i class="fas fa-map-marker-alt mr-2 text-green-400 text-xs"></i>
-            <span>Spaces, 4e étage - Vernier</span>
+            <span data-i18n="footer.spaces"></span>
           </div>
           <div class="flex items-center">
             <i class="fas fa-phone mr-2 text-green-400 text-xs"></i>
@@ -41,17 +45,18 @@
             <i class="fas fa-envelope mr-2 text-green-400 text-xs"></i>
             <a href="mailto:contact.qingning-sante@gmail.com"
               class="hover:text-white transition-colors text-xs break-all">
-              contact.qingning-sante@gmail.com
+              contact.qingningsante@gmail.com
             </a>
           </div>
         </div>
 
         <!-- Bouton RDV compact -->
         <div class="mt-4">
-          <a href="https://onedoc.com" target="_blank"
+          <a href="https://www.onedoc.ch/fr/specialiste-en-medecine-traditionnelle-chinoise-mtc/vernier/pczzf/yongyan-sui"
+            target="_blank"
             class="bg-green-500 hover:bg-green-400 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center text-xs w-full">
             <i class="fas fa-calendar-check mr-1"></i>
-            Prendre RDV
+            <span data-i18n="footer.rdv"></span>
           </a>
         </div>
       </div>
@@ -64,16 +69,12 @@
     <!-- Bottom Bar compacte -->
     <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
       <div class="text-gray-300 text-xs text-center md:text-left">
-        <p>&copy; 2025 Qingning Santé - Tous droits réservés</p>
+        <p data-i18n="footer.droits"></p>
       </div>
 
       <div class="flex items-center space-x-4">
-        <a href="mentions-legales.html" class="text-gray-300 hover:text-white text-xs transition-colors">
-          Mentions légales
-        </a>
-        <a href="confidentialite.html" class="text-gray-300 hover:text-white text-xs transition-colors">
-          Confidentialité
-        </a>
+        <a href="mentions-legales.html" class="text-gray-300 hover:text-white text-xs transition-colors"
+          data-i18n="footer.mentions"></a>
       </div>
     </div>
   </div>

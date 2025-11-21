@@ -50,40 +50,40 @@ const articles = {
         content: `
           <div class="space-y-6">
             <div class="bg-blue-50 p-4 rounded-lg">
-              <h4 class="font-bold text-blue-800 mb-2" data-i18n="vitality.articles.surpoids.philosophy.title"></h4>
-              <p data-i18n="vitality.articles.surpoids.philosophy.paragraph"></p>
+              <h4 class="font-bold text-blue-800 mb-2" data-i18n="vitality.articles.stress.philosophy.title"></h4>
+              <p data-i18n="vitality.articles.stress.philosophy.paragraph"></p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
               <div class="bg-purple-50 p-4 rounded-lg">
-                <h4 class="font-bold text-purple-800 mb-2" data-i18n="vitality.articles.surpoids.western.title"></h4>
-                <p data-i18n="vitality.articles.surpoids.western.paragraph"></p>
+                <h4 class="font-bold text-purple-800 mb-2" data-i18n="vitality.articles.stress.western.title"></h4>
+                <p data-i18n="vitality.articles.stress.western.paragraph"></p>
               </div>
 
               <div class="bg-indigo-50 p-4 rounded-lg">
-                <h4 class="font-bold text-indigo-800 mb-2" data-i18n="vitality.articles.surpoids.chinese.title"></h4>
-                <p data-i18n="vitality.articles.surpoids.chinese.paragraph"></p>
+                <h4 class="font-bold text-indigo-800 mb-2" data-i18n="vitality.articles.stress.chinese.title"></h4>
+                <p data-i18n="vitality.articles.stress.chinese.paragraph"></p>
               </div>
             </div>
 
             <div class="bg-gray-50 p-4 rounded-lg">
-              <h4 class="font-bold text-gray-800 mb-3" data-i18n="vitality.articles.surpoids.qingning.title"></h4>
+              <h4 class="font-bold text-gray-800 mb-3" data-i18n="vitality.articles.stress.qingning.title"></h4>
               <ul class="space-y-2">
                 <li class="flex items-start">
                   <span class="text-green-600 mr-2">•</span>
-                  <span data-i18n="vitality.articles.surpoids.qingning.solution1"></span>
+                  <span data-i18n="vitality.articles.stress.qingning.solution1"></span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-green-600 mr-2">•</span>
-                  <span data-i18n="vitality.articles.surpoids.qingning.solution2"></span>
+                  <span data-i18n="vitality.articles.stress.qingning.solution2"></span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-green-600 mr-2">•</span>
-                  <span data-i18n="vitality.articles.surpoids.qingning.solution3"></span>
+                  <span data-i18n="vitality.articles.stress.qingning.solution3"></span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-green-600 mr-2">•</span>
-                  <span data-i18n="vitality.articles.surpoids.qingning.solution4"></span>
+                  <span data-i18n="vitality.articles.stress.qingning.solution4"></span>
                 </li>
               </ul>
             </div>

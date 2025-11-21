@@ -34,6 +34,11 @@ const translations = {
                     'paragraph': `L'acupuncture traditionnelle stimule des points spécifiques du corps à l'aide d'aiguilles stérilisées et à usage unique. Cette stimulation provoque une réaction naturelle de l'organisme, favorisant l'auto-régulation, la circulation du Qi et la libération des blocages.`,
                     'link': `Plus d'information sur l'acupuncture`
                 },
+                'acupuncture-lift': {
+                    'title': 'Acupuncture Lift',
+                    'paragraph': `L'acupuncture LIFT associe les principes de l'acupuncture traditionnelle à une approche esthétique naturelle. En stimulant des points précis du visage et du cou à l'aide de fines aiguilles stériles à usage unique, cette technique favorise la régénération cellulaire, la microcirculation et la tonicité de la peau, tout en agissant sur l'équilibre énergétique global du corps.`,
+                    'link': `En savoir plus sur l'acupuncture lifting`
+                },
                 'moxibustion': {
                     'title': 'Moxibustion',
                     'paragraph': `La moxibustion utilise la chaleur du moxa - traditionnellement de l'armoise séchée, parfois associée à d'autres plantes - appliquée sur des points précis ou des zones du corps. Elle peut se faire avec des rouleaux, sur l'aiguille ou directement sur la peau.`,
@@ -74,12 +79,10 @@ const translations = {
             'session': {
                 'title': 'Votre séance d\'acupuncture à Genève',
                 'intro': 'Dans notre espace calme et lumineux, nous vous accompagnons pour :',
-                'benefits': [
-                    'Rééquilibrer votre énergie vitale (Qi)',
-                    'Stimuler vos capacités naturelles d\'auto-guérison',
-                    'Retrouver sérénité et vitalité',
-                    'Apaiser les douleurs chroniques'
-                ]
+                'benefit1': 'Rééquilibrer votre énergie vitale (Qi)',
+                'benefit2': 'Stimuler vos capacités naturelles d\'auto-guérison',
+                'benefit3': 'Retrouver sérénité et vitalité',
+                'benefit4': 'Apaiser les douleurs chroniques'
             },
             // Localisation
             'location': {
@@ -644,7 +647,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'seance1': {
                     'icone': 'Recommandé',
                     'title': 'Première séance - Diagnostic initial',
-                    'prix': 'CHF 170.-',
+                    'prix': 'CHF 150.-',
                     'duree': 'Durée : 60-75 minutes',
                     'etape1': 'Bilan énergétique complet selon les principes de la MTC',
                     'etape2': 'Dialogue approfondi pour établir votre histoire de santé',
@@ -1004,6 +1007,17 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'button2': `Nous appeler`,
                 'span': `Réponse rapide garantie sous 24h`
             }
+        },
+
+        /** ===== FOOTER COMPOSENT ===== */
+        'footer': {
+            'title': `Qingning Santé`,
+            'paragraph': `Médecine traditionnelle chinoise à Genève. Votre santé, notre tradition.`,
+            'contact': `Contact`,
+            'spaces': `Spaces, 4e étage - Vernier`,
+            'rdv': `Prendre RDV`,
+            'droits': `© 2025 Qingning Santé - Tous droits réservés`,
+            'mentions': `Mentions légales`
         }
     },
 
@@ -1043,6 +1057,11 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'paragraph': `Traditional acupuncture stimulates specific points on the body using sterilized, single-use needles. This stimulation triggers a natural response in the body, promoting self-regulation, Qi circulation, and the release of blockages.`,
                     'link': `More information about acupuncture`
                 },
+                'acupuncture-lift': {
+                    'title': 'Acupuncture Lift',
+                    'paragraph': 'The Acupuncture LIFT combines traditional acupuncture principles with a natural aesthetic approach. By stimulating specific points on the face and neck using fine, single-use sterile needles, this technique promotes cell regeneration, microcirculation, and skin tone, while also working on the body\'s overall energy balance.',
+                    'link': 'Learn more about acupuncture lifting'
+                },
                 'moxibustion': {
                     'title': 'Moxibustion',
                     'paragraph': `Moxibustion uses the heat of moxa - traditionally dried mugwort, sometimes combined with other plants - applied to specific points or areas of the body. It can be done with rolls, on the needle, or directly on the skin.`,
@@ -1081,14 +1100,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             },
             // Séances
             'session': {
-                'title': 'Your acupuncture session in Geneva',
-                'intro': 'In our calm and bright space, we accompany you to:',
-                'benefits': [
-                    'Rebalance your vital energy (Qi)',
-                    'Stimulate your natural self-healing abilities',
-                    'Regain serenity and vitality',
-                    'Soothe chronic pain'
-                ]
+                'title': 'Your Acupuncture Session in Geneva',
+                'intro': 'In our calm and bright space, we support you to:',
+                'benefit1': 'Rebalance your vital energy (Qi)',
+                'benefit2': 'Stimulate your natural self-healing abilities',
+                'benefit3': 'Regain serenity and vitality',
+                'benefit4': 'Soothe chronic pain'
             },
             // Localisation
             'location': {
@@ -1648,7 +1665,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'seance1': {
                     'icone': 'Recommended',
                     'title': 'First Session - Initial Diagnosis',
-                    'prix': 'CHF 170.-',
+                    'prix': 'CHF 150.-',
                     'duree': 'Duration: 60-75 minutes',
                     'etape1': 'Complete energy assessment according to TCM principles',
                     'etape2': 'In-depth dialogue to establish your health history',
@@ -2008,6 +2025,16 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'button2': `Call us`,
                 'span': `Quick response guaranteed within 24h`
             }
+        },
+        /** ===== FOOTER COMPONENT ===== */
+        'footer': {
+            'title': `Qingning Health`,
+            'paragraph': `Traditional Chinese Medicine in Geneva. Your health, our tradition.`,
+            'contact': `Contact`,
+            'spaces': `Spaces, 4th floor - Vernier`,
+            'rdv': `Book an Appointment`,
+            'droits': `© 2025 Qingning Health - All rights reserved`,
+            'mentions': `Legal notice`
         }
     },
 
@@ -2045,6 +2072,11 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'title': '针灸',
                     'paragraph': `传统针灸使用消毒的一次性针刺激身体特定穴位。这种刺激引发身体的自然反应，促进自我调节、气血循环和疏通经络。`,
                     'link': `了解更多关于针灸的信息`
+                },
+                'acupuncture-lift': {
+                    'title': '针灸提升',
+                    'paragraph': '针灸提升技术将传统针灸原理与自然美学方法相结合。通过使用一次性无菌细针刺激面部和颈部的特定穴位，该技术能促进细胞再生、微循环和皮肤紧致度，同时调节身体的整体能量平衡。',
+                    'link': '了解更多关于针灸提升的信息'
                 },
                 'moxibustion': {
                     'title': '艾灸',
@@ -2086,13 +2118,11 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             // Séances
             'session': {
                 'title': '您在日内瓦的针灸疗程',
-                'intro': '在我们宁静明亮的空间中，我们陪伴您：',
-                'benefits': [
-                    '重新平衡您的生命能量（气）',
-                    '激发您自然的自愈能力',
-                    '重获宁静与活力',
-                    '缓解慢性疼痛'
-                ]
+                'intro': '在我们宁静明亮的空间里，我们协助您：',
+                'benefit1': '重新平衡您的生命能量（气）',
+                'benefit2': '激发您自然的自愈能力',
+                'benefit3': '重获宁静与活力',
+                'benefit4': '缓解慢性疼痛'
             },
             // Localisation
             'location': {
@@ -2652,7 +2682,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'seance1': {
                     'icone': '推荐',
                     'title': '首次疗程 - 初步诊断',
-                    'prix': '170瑞士法郎',
+                    'prix': '150瑞士法郎',
                     'duree': '时长：60-75分钟',
                     'etape1': '根据中医原则的完整能量评估',
                     'etape2': '深入对话建立您的健康史',
@@ -3012,6 +3042,17 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'button2': `致电我们`,
                 'span': `保证24小时内快速回复`
             }
+        },
+
+        /** ===== FOOTER COMPONENT ===== */
+        'footer': {
+            'title': `清宁健康`,
+            'paragraph': `日内瓦传统中医。您的健康，我们的传统。`,
+            'contact': `联系我们`,
+            'spaces': `Spaces四楼 - 韦尔涅`,
+            'rdv': `预约诊疗`,
+            'droits': `© 2025 清宁健康 - 版权所有`,
+            'mentions': `法律声明`
         }
     }
 };

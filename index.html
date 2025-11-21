@@ -5,14 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Qingning Santé - Acupuncture et Médecine Chinoise à Genève</title>
-  <link rel="stylesheet" href="src/css/input.css">
-  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/src/css/input.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-  <style>
-
-  </style>
 </head>
 
 <body class="font-sans">
@@ -30,82 +27,117 @@
         <p class="text-xl mb-4" data-i18n="home.paragraph"></p>
 
         <!-- Ton carrousel ici -->
-        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <div id="default-carousel" class="relative w-full" data-carousel="slide" data-interval="7000">
           <!-- Carousel wrapper -->
           <div class="relative h-96 overflow-hidden rounded-lg md:h-[600px]">
             <!-- Slide Acupuncture -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
                   data-i18n="home.carousel.acupuncture.title"></h2>
                 <p data-i18n="home.carousel.acupuncture.paragraph"></p>
-                <a href="src/soins/acupuncture/acupuncture.html" data-i18n="home.carousel.acupuncture.link"></a>
+                <a href="src/soins/acupuncture/acupuncture.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.acupuncture.link">
+                </a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
+              </div>
+
+              <img src="src/assets/images/accueil-page/home-slide-acupuncture.webp"
+                class="absolute block w-full h-full object-cover" alt="...">
+            </div>
+            <!-- Slide Acupuncture Lift -->
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
+              <div
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
+                  data-i18n="home.carousel.acupuncture-lift.title"></h2>
+                <p data-i18n="home.carousel.acupuncture-lift.paragraph"></p>
+                <a href="src/soins/acupuncture-lift/acupuncture-lift.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.acupuncture.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/home-slide-acupuncture.webp"
                 class="absolute block w-full h-full object-cover" alt="...">
             </div>
             <!-- Slide Moxibustion -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
                   data-i18n="home.carousel.moxibustion.title"></h2>
                 <p data-i18n="home.carousel.moxibustion.paragraph"></p>
-                <a href="src/soins/moxibustion/moxibustion.html" data-i18n="home.carousel.moxibustion.link"></a>
+                <a href="src/soins/moxibustion/moxibustion.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.moxibustion.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/home-slide-moxibustion.webp"
                 class="absolute block w-full h-full object-cover" alt="...">
             </div>
             <!-- Slide Ventouses -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
                   data-i18n="home.carousel.ventouses.title"></h2>
                 <p data-i18n="home.carousel.ventouses.paragraph"></p>
-                <a href="src/soins/ventouses/ventouses.html" data-i18n="home.carousel.ventouses.link"></a>
+                <a href="src/soins/ventouses/ventouses.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.ventouses.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/home-slide-ventouse.webp"
                 class="absolute block w-full h-full object-cover" alt="...">
             </div>
             <!-- Slide Tuina -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg" data-i18n="home.carousel.tuina.title">
                 </h2>
                 <p data-i18n="home.carousel.tuina.paragraph"></p>
-                <a href="src/soins/tuina/tuina.html" data-i18n="home.carousel.tuina.link"></a>
+                <a href="src/soins/tuina/tuina.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.tuina.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/hom-slide-tuina.webp"
                 class="absolute block w-full h-full object-cover" alt="...">
             </div>
             <!-- Slide Phytotherapie -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
                   data-i18n="home.carousel.phytotherapie.title"></h2>
                 <p data-i18n="home.carousel.phytotherapie.paragraph"></p>
-                <a href="src/soins/phytotherapie/phytotherapie.html" data-i18n="home.carousel.phytotherapie.link"></a>
+                <a href="src/soins/phytotherapie/phytotherapie.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.phytotherapie.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/hom-slide-phytotherapie.webp"
                 class="absolute block w-full h-full object-cover" alt="...">
             </div>
             <!-- Slide Nutrition -->
-            <div class="hidden duration-3000 ease-in-out" data-carousel-item>
+            <div class="hidden duration-initial ease-in-out" data-carousel-item>
               <div
-                class="bg-green-900 bg-opacity-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
+                class="bg-green-900 bg-opacity-15 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white w-4/5 text-lg md:text-xl drop-shadow-md bg-opacity-40 p-4 rounded-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg"
                   data-i18n="home.carousel.nutrition.title"></h2>
                 <p data-i18n="home.carousel.nutrition.paragraph"></p>
-                <a href="src/soins/nutrition/nutrition.html" data-i18n="home.carousel.nutrition.link"></a>
+                <a href="src/soins/nutrition/nutrition.html"
+                  class="inline-flex items-center gap-1 text-green-300 hover:text-green-50 border-b border-green-300 pb-1 transition-all duration-300 group"
+                  data-i18n="home.carousel.nutrition.link"></a>
+                <span class="text-green-300 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </div>
 
               <img src="src/assets/images/accueil-page/home-slide-nutrition.webp"
@@ -133,6 +165,9 @@
             <button type="button"
               class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
               aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full hover:bg-green-300 !bg-green-400 transition-colors carousel-indicator"
+              aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
           </div>
 
           <!-- Slider controls - EN VERT -->
@@ -191,22 +226,22 @@
           <h2 class="text-3xl font-bold text-[#2E5D35] mb-6" data-i18n="home.session.title"></h2>
           <p class="text-lg text-[#2E5D35] mb-4 leading-relaxed" data-i18n="home.session.intro">
           </p>
-          <ul class="text-lg text-[#2E5D35] space-y-3 ml-6" data-i18n="home.session.benefits">
+          <ul class="text-lg text-[#2E5D35] space-y-3 ml-6">
             <li class="flex items-start">
               <span class="text-[#8BC34A] mr-3">•</span>
-              Rééquilibrer votre énergie vitale (Qi)
+              <span data-i18n="home.session.benefit1"></span>
             </li>
             <li class="flex items-start">
               <span class="text-[#8BC34A] mr-3">•</span>
-              Stimuler vos capacités naturelles d'auto-guérison
+              <span data-i18n="home.session.benefit2"></span>
             </li>
             <li class="flex items-start">
               <span class="text-[#8BC34A] mr-3">•</span>
-              Retrouver sérénité et vitalité
+              <span data-i18n="home.session.benefit3"></span>
             </li>
             <li class="flex items-start">
               <span class="text-[#8BC34A] mr-3">•</span>
-              Apaiser les douleurs chroniques
+              <span data-i18n="home.session.benefit4"></span>
             </li>
           </ul>
         </div>
@@ -218,7 +253,7 @@
         </div>
 
         <!-- Certification -->
-        <div class="mb-12 bg-emerald-100 p-6 rounded-lg border border-[#E8F5E8]">
+        <div class="mb-12 bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-lg border border-[#E8F5E8]">
           <h2 class="text-2xl font-bold text-[#2E5D35] mb-4" data-i18n="home.certification.title"></h2>
           <p class="text-lg text-[#2E5D35] leading-relaxed" data-i18n="home.certification.paragraph"></p>
         </div>
@@ -228,7 +263,8 @@
           <div class="text-3xl mb-4">📞</div>
           <h3 class="text-2xl font-bold mb-4" data-i18n="home.cta.title"></h3>
           <p class="text-lg mb-6 opacity-90" data-i18n="home.cta.subtitle"></p>
-          <a href="contact.html#rdv"
+          <a href="https://www.onedoc.ch/fr/specialiste-en-medecine-traditionnelle-chinoise-mtc/vernier/pczzf/yongyan-sui"
+            target="_blank"
             class="inline-block bg-[#8BC34A] hover:bg-[#7CB342] text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300"
             data-i18n="home.cta.button"></a>
         </div>

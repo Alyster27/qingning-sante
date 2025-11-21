@@ -3,6 +3,30 @@ class GlobalTranslator {
     constructor() {
         this.currentLang = localStorage.getItem('siteLang') || 'fr';
         this.init();
+        this.setupMutationObserver();
+    }
+
+    // NOUVEAU : Observer les changements du DOM
+    setupMutationObserver() {
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length > 0) {
+                    // Vérifier si header/footer ont été ajoutés
+                    mutation.addedNodes.forEach((node) => {
+                        if (node.nodeType === 1 && 
+                            (node.classList.contains('header') || 
+                             node.querySelector('[data-i18n]'))) {
+                            this.updateEntireSite();
+                        }
+                    });
+                }
+            });
+        });
+        
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
     }
     
     init() {
