@@ -42,3 +42,9 @@
 .carousel-indicator[aria-current="true"] {
   background-color: #22c55e !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel-content-mobile {
+    display: none !important;
+  }
+}
