@@ -1014,7 +1014,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'title': `Qingning Santé`,
             'paragraph': `Médecine traditionnelle chinoise à Genève. Votre santé, notre tradition.`,
             'contact': `Contact`,
-            'spaces': `Spaces, 4e étage - Vernier`,
+            'spaces': `Spaces, 4e étage, Place Casa-Bamba 1 - 1219 Vernier`,
             'rdv': `Prendre RDV`,
             'droits': `© 2025 Qingning Santé - Tous droits réservés`,
             'mentions': `Mentions légales`
@@ -2031,7 +2031,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'title': `Qingning Health`,
             'paragraph': `Traditional Chinese Medicine in Geneva. Your health, our tradition.`,
             'contact': `Contact`,
-            'spaces': `Spaces, 4th floor - Vernier`,
+            'spaces': `Spaces, 4th floor, Place Casa-Bamba 1 - 1219 Vernier`,
             'rdv': `Book an Appointment`,
             'droits': `© 2025 Qingning Health - All rights reserved`,
             'mentions': `Legal notice`
@@ -3049,7 +3049,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'title': `清宁健康`,
             'paragraph': `日内瓦传统中医。您的健康，我们的传统。`,
             'contact': `联系我们`,
-            'spaces': `Spaces四楼 - 韦尔涅`,
+            'spaces': `Spaces四楼, Casa-Bamba广场1号 - 1219 韦尔涅`,
             'rdv': `预约诊疗`,
             'droits': `© 2025 清宁健康 - 版权所有`,
             'mentions': `法律声明`
