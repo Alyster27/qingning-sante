@@ -139,6 +139,10 @@ const translations = {
             'section4': {
               'subtitle': `Acupuncture et MTC : une approche globale du bien-être`,
               'paragraph': `La médecine traditionnelle chinoise considère l'être humain dans sa globalité. Au-delà des symptômes, nous cherchons à comprendre les déséquilibres énergétiques qui affectent votre santé. Notre approche combine acupuncture, phytothérapie, diététique et conseils en hygiène de vie pour un bien-être durable.`
+            },
+            'section5': {
+                'title': "Qingning Chine",
+                'button': "Les Origines de Qingning Santé"
             }
         },
 
@@ -192,13 +196,15 @@ const translations = {
                 'title': 'Dr Liqiang Deng',
                 'subtitle': `Expertise et Excellence en Médecine Traditionnelle Chinoise`,
                 'bloc1-paragraph': `Le Dr Liqiang Deng est un praticien émérite en Médecine Traditionnelle Chinoise (MTC), diplômé de la prestigieuse Université de Médecine Traditionnelle Chinoise du Tianjin (Chine). Avec plus de 40 années de pratique clinique, il a acquis une expérience approfondie tant en Chine que sur la scène internationale, notamment en Suisse, où il exerce et continue de transmettre son savoir. Au cours de sa carrière, le Dr Deng a travaillé dans des hôpitaux et centres spécialisés en MTC, développant une maîtrise reconnue des principales disciplines : acupuncture, phytothérapie, massages thérapeutiques (Tui Na) et rééquilibrage énergétique.`,
-                'bloc2-paragraph': `Sa formation rigoureuse et sa longue pratique lui permettent d'allier savoir traditionnel et approches contemporaines, offrant des soins personnalisés, précis et efficaces. Le Dr Deng met un point d'honneur à adopter une approche globale, qui vise non seulement à traiter les déséquilibres physiques mais aussi à améliorer le bien-être émotionnel et à prévenir les maladies. Sa philosophie de soin repose sur la recherche de l'harmonie et de l'équilibre, principes fondamentaux de la médecine traditionnelle chinoise.`
+                'bloc2-paragraph': `Sa formation rigoureuse et sa longue pratique lui permettent d'allier savoir traditionnel et approches contemporaines, offrant des soins personnalisés, précis et efficaces. Le Dr Deng met un point d'honneur à adopter une approche globale, qui vise non seulement à traiter les déséquilibres physiques mais aussi à améliorer le bien-être émotionnel et à prévenir les maladies. Sa philosophie de soin repose sur la recherche de l'harmonie et de l'équilibre, principes fondamentaux de la médecine traditionnelle chinoise.`,
+                'button': `Prendre rendez-vous avec Dr Deng`
             },
             'section3': {
                 'title': 'Yongyan Sui',
                 'subtitle': `Médecine Traditionnelle Chinoise & Nutrition`,
                 'bloc1-paragraph': `Yongyan Sui est praticienne formée en gestion de santé en Médecine Traditionnelle Chinoise au sein de la clinique Qingning de Shenyang (Chine). Membre du Comité professionnel d'endocrinologie de la Fédération Mondiale de Médecine Chinoise, elle associe l'expertise de la médecine traditionnelle chinoise à une approche scientifique de la nutrition. Diplômée en nutrition par l'École Suisse de Santé et de Réhabilitation (ESSR), Yongyan Sui développe une pratique unique qui relie médecine chinoise et nutrition thérapeutique, permettant d'optimiser la santé globale et de renforcer l'équilibre du corps et de l'esprit.`,
-                'bloc2-paragraph': `Elle est spécialisée dans la prise en charge des maladies liées aux émotions (stress, anxiété, déséquilibres hormonaux), ainsi que dans le soutien du système digestif. Ses soins personnalisés visent à rétablir l'harmonie entre l'alimentation, les émotions et l'énergie vitale, pour améliorer la santé globale et la qualité de vie.`
+                'bloc2-paragraph': `Elle est spécialisée dans la prise en charge des maladies liées aux émotions (stress, anxiété, déséquilibres hormonaux), ainsi que dans le soutien du système digestif. Ses soins personnalisés visent à rétablir l'harmonie entre l'alimentation, les émotions et l'énergie vitale, pour améliorer la santé globale et la qualité de vie.`,
+                'button': `Prendre rendez-vous avec Dr Sui`
             }
         },
 
@@ -1199,6 +1205,10 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'section4': {
                 'subtitle': `Acupuncture and TCM: A Holistic Approach to Well-being`,
                 'paragraph': `Traditional Chinese medicine considers the human being in their entirety. Beyond symptoms, we seek to understand the energy imbalances that affect your health. Our approach combines acupuncture, herbal medicine, dietetics and lifestyle advice for lasting well-being.`
+            },
+            'section5': {
+                'title': "Qingning China",
+                'button': "The Origins of Qingning Health"
             }
         },
         /** ===== PAGE ABOUT-CHINA ===== */
@@ -1249,14 +1259,16 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'section2': {
                 'title': 'Dr Liqiang Deng',
                 'subtitle': 'Expertise and Excellence in Traditional Chinese Medicine',
-                'bloc1-paragraph': `Dr. Liqiang Deng is an eminent practitioner of Traditional Chinese Medicine (TCM), graduated from the prestigious Tianjin University of Traditional Chinese Medicine (China). With over 40 years of clinical practice, he has gained extensive experience both in China and internationally, particularly in Switzerland, where he practices and continues to share his knowledge. Throughout his career, Dr. Deng has worked in hospitals and specialized TCM centers, developing recognized mastery in key disciplines: acupuncture, herbal medicine, therapeutic massage (Tui Na), and energy rebalancing.`,
-                'bloc2-paragraph': `His rigorous training and long practice allow him to combine traditional knowledge with contemporary approaches, offering personalized, precise, and effective treatments. Dr. Deng places great importance on adopting a holistic approach that aims not only to treat physical imbalances but also to improve emotional well-being and prevent diseases. His care philosophy is based on the pursuit of harmony and balance, fundamental principles of traditional Chinese medicine.`
+                'bloc1-paragraph': 'Dr. Liqiang Deng is an eminent practitioner of Traditional Chinese Medicine (TCM), graduated from the prestigious Tianjin University of Traditional Chinese Medicine (China). With over 40 years of clinical practice, he has gained extensive experience both in China and internationally, particularly in Switzerland, where he practices and continues to share his knowledge. Throughout his career, Dr. Deng has worked in hospitals and specialized TCM centers, developing recognized mastery of the main disciplines: acupuncture, herbal medicine, therapeutic massage (Tui Na), and energy rebalancing.',
+                'bloc2-paragraph': 'His rigorous training and long practice enable him to combine traditional knowledge with contemporary approaches, offering personalized, precise, and effective treatments. Dr. Deng places great emphasis on adopting a holistic approach, which aims not only to treat physical imbalances but also to improve emotional well-being and prevent illness. His care philosophy is based on the pursuit of harmony and balance, fundamental principles of traditional Chinese medicine.',
+                'button': 'Book an appointment with Dr. Deng'
             },
             'section3': {
                 'title': 'Yongyan Sui',
                 'subtitle': 'Traditional Chinese Medicine & Nutrition',
-                'bloc1-paragraph': `Yongyan Sui is a practitioner trained in health management in Traditional Chinese Medicine at the Qingning Clinic in Shenyang (China). A member of the Professional Endocrinology Committee of the World Federation of Chinese Medicine, she combines TCM expertise with a scientific approach to nutrition. Graduated in nutrition from the Swiss School of Health and Rehabilitation (ESSR), Yongyan Sui develops a unique practice that links Chinese medicine and therapeutic nutrition, optimizing overall health and strengthening the balance of body and mind.`,
-                'bloc2-paragraph': `She specializes in managing emotion-related conditions (stress, anxiety, hormonal imbalances), as well as supporting the digestive system. Her personalized treatments aim to restore harmony between diet, emotions, and vital energy, to improve overall health and quality of life.`
+                'bloc1-paragraph': 'Yongyan Sui is a practitioner trained in health management in Traditional Chinese Medicine at the Qingning Clinic in Shenyang (China). A member of the Professional Endocrinology Committee of the World Federation of Chinese Medicine, she combines TCM expertise with a scientific approach to nutrition. Graduated in nutrition from the Swiss School of Health and Rehabilitation (ESSR), Yongyan Sui develops a unique practice that connects Chinese medicine and therapeutic nutrition, optimizing overall health and strengthening the balance of body and mind.',
+                'bloc2-paragraph': 'She specializes in managing emotion-related conditions (stress, anxiety, hormonal imbalances), as well as supporting the digestive system. Her personalized treatments aim to restore harmony between diet, emotions, and vital energy, to improve overall health and quality of life.',
+                'button': 'Book an appointment with Dr. Sui'
             }
         },
 
@@ -2254,6 +2266,10 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'section4': {
                 'subtitle': `针灸与中医：全方位的健康之道`,
                 'paragraph': `中医将人视为一个整体。除了症状之外，我们更致力于理解影响您健康的能量失衡问题。我们的方法结合了针灸、中药、饮食调理和生活建议，以实现持久的健康状态。`
+            },
+            'section5': {
+                'title': "青凝中国",
+                'button': "青凝健康的起源"
             }
         },
         /** ===== PAGE ABOUT-CHINA ===== */
@@ -2304,14 +2320,16 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
             'section2': {
                 'title': '邓立强医生',
                 'subtitle': '传统中医的专业与卓越',
-                'bloc1-paragraph': `邓立强医生是传统中医领域的杰出医师，毕业于中国著名的天津中医药大学。拥有超过40年的临床实践经验，他在中国和国际舞台（特别是在瑞士）积累了丰富的经验，在此执业并持续传授他的知识。在职业生涯中，邓医生曾在多家医院和专业中医中心工作，在主要学科领域形成了公认的精湛技艺：针灸、中药、推拿治疗和能量平衡调理。`,
-                'bloc2-paragraph': `他严谨的培训和长期的实践使他能够将传统智慧与现代方法相结合，提供个性化、精准且有效的治疗。邓医生特别重视采用整体疗法，不仅旨在治疗身体失衡，还致力于改善情绪健康并预防疾病。他的治疗理念基于对和谐与平衡的追求，这是传统中医的基本原则。`
+                'bloc1-paragraph': '邓立强医生是杰出的传统中医（TCM）医师，毕业于中国著名的天津中医药大学。拥有超过40年的临床实践经验，他在中国和国际舞台（尤其在瑞士）积累了丰富的诊疗经验，目前在此执业并持续传授专业知识。邓医生曾在多家医院和中医专科中心工作，精通针灸、草药疗法、推拿按摩和气功平衡等主要中医学科。',
+                'bloc2-paragraph': '他严谨的培训和长期的临床实践使他能够将传统智慧与现代方法相结合，提供个性化、精准且有效的治疗方案。邓医生特别强调采用整体疗法，不仅旨在调理身体失衡，更注重改善情绪健康并预防疾病。他的治疗理念基于对和谐与平衡的追求，这是中医的基本原则。',
+                'button': '预约邓医生诊疗'
             },
             'section3': {
-                'title': '随永艳',
-                'subtitle': '中医与营养学',
-                'bloc1-paragraph': `随永艳是在沈阳清宁诊所接受中医健康管理培训的医师。作为世界中医学会联合会内分泌专业委员会的成员，她将中医专业知识与科学的营养学方法相结合。毕业于瑞士健康与康复学院营养学专业，随永艳开创了一种独特的实践，将中医与治疗性营养联系起来，优化整体健康并强化身心平衡。`,
-                'bloc2-paragraph': `她专长于处理与情绪相关的病症（压力、焦虑、荷尔蒙失衡），以及支持消化系统健康。她的个性化治疗旨在恢复饮食、情绪与生命能量之间的和谐，以改善整体健康和生活质量。`
+                'title': '隋永妍',
+                'subtitle': '传统中医与营养学',
+                'bloc1-paragraph': '隋永妍是在沈阳青凝诊所接受中医健康管理培训的执业医师。作为世界中医药学会联合会内分泌专业委员会成员，她将中医专业知识与科学的营养学方法相结合。毕业于瑞士健康与康复学院（ESSR）营养学专业，隋永妍开创了独特的中医与治疗性营养结合实践，旨在优化整体健康，促进身心平衡。',
+                'bloc2-paragraph': '她专长于情绪相关病症（压力、焦虑、荷尔蒙失衡）的调理，以及消化系统的支持治疗。她的个性化治疗方案旨在恢复饮食、情绪与生命能量之间的和谐，从而提高整体健康水平和生活质量。',
+                'button': '预约隋医生诊疗'
             }
         },
 
