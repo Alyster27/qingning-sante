@@ -142,6 +142,45 @@ const translations = {
             }
         },
 
+        /** ===== PAGE À PROPOS CHINA ===== */
+        'about-china': {
+            'section1': {
+                'title': "Partenariat avec la Clinique Qingning - Chine",
+                'paragraph': "Un pont entre traditions ancestrales et innovations modernes"
+            },
+            'section2': {
+                'title': "Un lien vivant avec l'excellence chinoise",
+                'paragraph1': "Grâce à notre partenariat exclusif avec la Clinique Qingning en Chine, nous bénéficions d'un échange constant : formations régulières, actualisation des recherches et pratiques modernes, transmission directe de savoir-faire rarement enseigné en Europe.",
+                'paragraph2': "Ce lien vivant garantit que nos soins restent fidèles à la tradition tout en intégrant les avancées actuelles.",
+                'subtitle': "Qingning Chine - Présentation",
+                'subparagraph1': "Qingning Chine est un réseau de cliniques de Médecine Traditionnelle Chinoise (MTC) fondé en 2023 par le Professeur Wang Bo, docteur en médecine et héritier d'un grand maître national de la MTC.",
+                'subparagraph2': "Né à Shenyang, Qingning Chine a pour mission de transmettre l'excellence de la médecine traditionnelle tout en intégrant les avancées de la recherche médicale moderne.",
+                'subparagraph3': "En plus des soins cliniques, Qingning Chine développe des programmes de recherche et de formation, en partenariat avec des institutions médicales en Chine et à l'international, afin de promouvoir une médecine préventive et intégrative.",
+                'bubble': {
+                    'title1': "Harmonie",
+                    'text1': "Respect des principes fondamentaux de la médecine chinoise",
+                    'title2': "Équilibre",
+                    'text2': "Approche globale pour rétablir l'équilibre énergétique",
+                    'title3': "Individualisation",
+                    'text3': "Traitements personnalisés pour chaque patient"
+                }
+            },
+            'section3': {
+                'title': "Expertise internationale",
+                'text': "Soutenus par des spécialistes de la Clinique Qingning Santé en Chine",
+                'card': {
+                    'title1': "Consultations conjointes",
+                    'paragraph1': "Des consultations conjointes sont organisées régulièrement afin de solliciter l'avis de plusieurs experts sur les cas complexes et de rechercher les meilleures solutions thérapeutiques.",
+                    'title2': "Formation continue",
+                    'paragraph2': "Notre équipe bénéficie de formations régulières avec les experts chinois pour maintenir l'excellence de nos pratiques thérapeutiques."
+                }
+            },
+            'section4': {
+                'title': "Galerie Qingning Chine",
+                'paragraph': "Découvrez notre réseau de cliniques en Chine"
+            }
+        },
+
         /** ===== PAGE THÉRAPEUTE ===== */
         'therapeute': {
             'section1': {
@@ -288,12 +327,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 "benefit5": "Détente profonde et bien-être général"
   },
             'section3': {
-                'title': `Notre approche à Qingning Santé`,
-                'paragraph': `Chaque séance commence par un diagnostic énergétique personnalisé, permettant de comprendre les déséquilibres internes susceptibles d'affecter la peau et le vieillissement. Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'agisse de revitaliser, tonifier ou apaiser. Des conseils complémentaires en nutrition, soins de la peau et hygiène de vie peuvent être proposés pour prolonger les effets du traitement.`
+                'title': `Notre approche des ventouses`,
+                'paragraph': `Nous combinons souvent les ventouses avec l'acupuncture pour potentialiser les effets thérapeutiques. La marque circulaire laissée par les ventouses est temporaire et indique la libération des toxines et stagnations.`
             },
             'section4': {
                 'title': `Comment ça marche ?`,
-                'paragraph': `L'acupuncture LIFT ne se limite pas à une action esthétique : elle agit aussi sur la santé globale. Les fines aiguilles utilisées sont insérées délicatement, provoquant une stimulation subtile qui réveille les fonctions naturelles de la peau sans douleur ni inflammation. Les résultats apparaissent progressivement, offrant un effet rajeunissant naturel et durable.`
+                'paragraph': `Les ventouses agissent selon plusieurs principes : elles mobilisent le sang et l'énergie dans les couches superficielles et profondes, stimulent le système immunitaire et provoquent une relaxation musculaire profonde. Contrairement aux apparences, la pose des ventouses est généralement très agréable et relaxante.`
             }
         },
 
@@ -983,7 +1022,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'bold1': `Tram 18 ou 14`,
                     'text1': ` - Arrêt Avanchet-Étang (3 min à pied)`,
                     'bold2': `Bus 28`,
-                    'text2': ` - Arrêt Vernier, Étang Place (2-3 min à pied)`
+                    'text2': ` - Arrêt Vernier, Étang Casa-Bamba (2-3 min à pied)`
                 },
                 'voiture': {
                     'title': `En voiture`,
@@ -1162,6 +1201,44 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'paragraph': `Traditional Chinese medicine considers the human being in their entirety. Beyond symptoms, we seek to understand the energy imbalances that affect your health. Our approach combines acupuncture, herbal medicine, dietetics and lifestyle advice for lasting well-being.`
             }
         },
+        /** ===== PAGE ABOUT-CHINA ===== */
+        'about-china': {
+            'section1': {
+                'title': "Partnership with Qingning Clinic - China",
+                'paragraph': "A bridge between ancestral traditions and modern innovations"
+            },
+            'section2': {
+                'title': "A living connection with Chinese excellence",
+                'paragraph1': "Through our exclusive partnership with Qingning Clinic in China, we benefit from constant exchange: regular training, updates on research and modern practices, direct transmission of know-how rarely taught in Europe.",
+                'paragraph2': "This living connection ensures our treatments remain faithful to tradition while integrating current advancements.",
+                'subtitle': "Qingning China - Presentation",
+                'subparagraph1': "Qingning China is a network of Traditional Chinese Medicine (TCM) clinics founded in 2023 by Professor Wang Bo, medical doctor and heir to a national TCM grand master.",
+                'subparagraph2': "Born in Shenyang, Qingning China's mission is to transmit the excellence of traditional medicine while integrating advances in modern medical research.",
+                'subparagraph3': "In addition to clinical care, Qingning China develops research and training programs, in partnership with medical institutions in China and internationally, to promote preventive and integrative medicine.",
+                'bubble': {
+                    'title1': "Harmony",
+                    'text1': "Respect for the fundamental principles of Chinese medicine",
+                    'title2': "Balance",
+                    'text2': "Holistic approach to restore energy balance",
+                    'title3': "Individualization",
+                    'text3': "Personalized treatments for each patient"
+                }
+            },
+            'section3': {
+                'title': "International expertise",
+                'text': "Supported by specialists from Qingning Health Clinic in China",
+                'card': {
+                    'title1': "Joint consultations",
+                    'paragraph1': "Joint consultations are regularly organized to seek the opinion of multiple experts on complex cases and research the best therapeutic solutions.",
+                    'title2': "Continuing education",
+                    'paragraph2': "Our team benefits from regular training with Chinese experts to maintain the excellence of our therapeutic practices."
+                }
+            },
+            'section4': {
+                'title': "Qingning China Gallery",
+                'paragraph': "Discover our network of clinics in China"
+            }
+        },
         /** ===== THERAPEUTES PAGE ===== */
         'therapeute': {
             'section1': {
@@ -1306,12 +1383,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 "benefit5": "Deep relaxation and general well-being"
             },
             'section3': {
-                'title': `Our approach at Qingning Santé`,
-                'paragraph': `Each session begins with a personalized energy diagnosis to understand internal imbalances that may affect skin and aging. The LIFT acupuncture protocol is then tailored to your needs - whether to revitalize, tone, or soothe. Complementary advice on nutrition, skincare and lifestyle may be provided to extend the treatment effects.`
+                'title': `Our Cupping Therapy Approach`,
+                'paragraph': `We often combine cupping with acupuncture to enhance therapeutic effects. The circular marks left by cupping are temporary and indicate the release of toxins and stagnations.`
             },
             'section4': {
-                'title': `How does it work?`,
-                'paragraph': `LIFT acupuncture is not limited to aesthetic action: it also works on overall health. The fine needles used are gently inserted, creating subtle stimulation that awakens the skin's natural functions without pain or inflammation. Results appear gradually, offering a natural and long-lasting rejuvenating effect.`
+                'title': `How Does It Work?`,
+                'paragraph': `Cupping works through several principles: it mobilizes blood and energy in both superficial and deep layers, stimulates the immune system, and induces deep muscle relaxation. Despite appearances, cupping application is generally very pleasant and relaxing.`
             }
         },
 
@@ -2001,7 +2078,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'bold1': `Tram 18 or 14`,
                     'text1': ` - Avanchet-Étang stop (3 min walk)`,
                     'bold2': `Bus 28`,
-                    'text2': ` - Vernier, Étang Place stop (2-3 min walk)`
+                    'text2': ` - Vernier stop, Étang Casa-Bamba (2-3 min walk)`
                 },
                 'voiture': {
                     'title': `By car`,
@@ -2179,6 +2256,44 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 'paragraph': `中医将人视为一个整体。除了症状之外，我们更致力于理解影响您健康的能量失衡问题。我们的方法结合了针灸、中药、饮食调理和生活建议，以实现持久的健康状态。`
             }
         },
+        /** ===== PAGE ABOUT-CHINA ===== */
+        'about-china': {
+            'section1': {
+                'title': "与青凝诊所（中国）的合作关系",
+                'paragraph': "连接古老传统与现代创新的桥梁"
+            },
+            'section2': {
+                'title': "与中国卓越医疗的紧密联系",
+                'paragraph1': "通过与青凝诊所的独家合作，我们享有持续的交流：定期培训、最新研究和现代实践的更新、直接传承在欧洲罕见传授的专业技能。",
+                'paragraph2': "这种紧密联系确保我们的治疗在保持传统精髓的同时，融合当代医学进展。",
+                'subtitle': "青凝中国 - 简介",
+                'subparagraph1': "青凝中国是由王博教授于2023年创立的传统中医诊所网络，王博教授是医学博士，国家级中医大师传承人。",
+                'subparagraph2': "青凝中国诞生于沈阳，其使命是在融合现代医学研究进展的同时，传承传统医学的精粹。",
+                'subparagraph3': "除临床诊疗外，青凝中国还与国内外医疗机构合作，开展研究和培训项目，以推广预防性和整合医学。",
+                'bubble': {
+                    'title1': "和谐",
+                    'text1': "尊重中医基本原则",
+                    'title2': "平衡", 
+                    'text2': "整体调理，恢复能量平衡",
+                    'title3': "个性化",
+                    'text3': "为每位患者量身定制治疗方案"
+                }
+            },
+            'section3': {
+                'title': "国际专业支持",
+                'text': "得到青凝健康诊所专家的支持",
+                'card': {
+                    'title1': "联合会诊",
+                    'paragraph1': "定期组织联合会诊，针对复杂病例征求多位专家意见，寻求最佳治疗方案。",
+                    'title2': "持续教育",
+                    'paragraph2': "我们的团队定期接受中国专家培训，以保持治疗实践的卓越水平。"
+                }
+            },
+            'section4': {
+                'title': "青凝中国图库",
+                'paragraph': "了解我们在中国的诊所网络"
+            }
+        },
         /** ===== THERAPEUTES PAGE ===== */
         'therapeute': {
             'section1': {
@@ -2323,12 +2438,12 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                 "benefit5": "深度放松和整体健康"
             },
             'section3': {
-                'title': `我们在青宁健康的独特方法`,
-                'paragraph': `每次疗程都以个性化的能量诊断开始，了解可能影响皮肤和老化的内部失衡。然后根据您的需求定制LIFT针灸方案——无论是恢复活力、紧致还是舒缓。可能会提供营养、护肤和生活方式的补充建议，以延长治疗效果。`
+                'title': `我们的拔罐疗法理念`,
+                'paragraph': `我们经常将拔罐与针灸结合使用，以增强治疗效果。拔罐留下的圆形印记是暂时的，表明毒素和淤滞正在排出。`
             },
             'section4': {
-                'title': `它是如何工作的？`,
-                'paragraph': `LIFT针灸不仅限于美学作用：它还对整体健康起作用。使用的细针被轻柔插入，产生微妙的刺激，唤醒皮肤的自然功能，无疼痛或炎症。效果逐渐显现，提供自然而持久的年轻化效果。`
+                'title': `工作原理`,
+                'paragraph': `拔罐通过多种原理发挥作用：它在浅层和深层组织中促进血液和能量循环，刺激免疫系统，并引发深层肌肉放松。尽管看起来可能有些惊人，但拔罐过程通常非常舒适和放松。`
             }
         },
 
@@ -3018,7 +3133,7 @@ Le protocole d'acupuncture LIFT est ensuite adapté à vos besoins — qu'il s'a
                     'bold1': `电车18或14路`,
                     'text1': ` - Avanchet-Étang站（步行3分钟）`,
                     'bold2': `巴士28路`,
-                    'text2': ` - Vernier, Étang Place站（步行2-3分钟）`
+                    'text2': ` - 韦尔涅站, Casa-Bamba池塘 (步行2-3分钟)`
                 },
                 'voiture': {
                     'title': `自驾`,
